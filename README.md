@@ -127,7 +127,7 @@ La barre d'outils comprend les raccourcis vers les actions suivantes :
 - Raccourci vers l'application ***AstroTargetSelector*** (***ATS***)
 
 > [!NOTE]
-> Le détail des actions ci-dessus est décrite dans la partie ***Saisie***.
+> Le détail des actions ci-dessus est décrite dans la partie ***[Saisie](#saisie)***.
 
 <p align="right"><a href="#sommaire">Retour au sommaire</a></p>
 
@@ -144,6 +144,7 @@ Cette partie comprend l'affichage des onglets suivants :
 #### Onglet Sessions d'observations
 ![Onglet Session d'observations](images/Onglet_Sessions.png)
 
+Cet onglet permet d'afficher la liste des sessions d'observations enregistrées.\
 L'affichage de cet onglet est divisé en trois parties :
 - Une liste arborescente comprenant les éléments :
     - ***Date***\
@@ -240,6 +241,7 @@ Modifier les dimensions de la fenêtre, notament la hauteur, permet également d
 #### Onglet Catalogue des objets célestes
 ![Onglet Catalogue des objets célestes](images/Onglet_Catalogue.png)
 
+Cet onglet permet d'afficher la liste des objets célestes du catalogue.\
 L'affichage de cet onglet est divisé en quatre parties :
 - Une liste arborescente comprenant les éléments :
     - ***Déjà observés***\
@@ -449,7 +451,7 @@ Lorsque l'onglet [Session d'observations](#onglet-sessions-dobservations) est af
 - Le nombre total de sessions d'observations enregistrées.
 - Le nombre de sessions d'observations affichées dans la liste des sessions.
 
-[!NOTE]
+> [!NOTE]
 > Le nombre de sessions d'observations affichées dans la liste est dépendant de l'élément sélectionné dans la liste arborescente.
 
 <p align="right"><a href="#sommaire">Retour au sommaire</a></p>
@@ -461,7 +463,7 @@ Lorsque l'onglet [Catalogue des objets célestes](#onglet-catalogue-des-objets-c
 - Le nombre total d'objets célestes répertoriés dans le catalogue.
 - Le nombre d'objets célestes affichés dans la liste des objets.
 
-[!NOTE]
+> [!NOTE]
 > Le nombre d'objets célestes affichés dans la liste est dépendant de l'élément sélectionné dans la liste arborescente, et des éléments positionnés dans la zone de filtre.
 
 <p align="right"><a href="#sommaire">Retour au sommaire</a></p>
@@ -531,7 +533,7 @@ Elle est composée de deux zones :
 - ***Rechercher*** : zone de saisie permettant de saisir les éléments de recherche.
 - ***Résultat de la recherche*** : résultat de la recherche dans le catalogue complet correspondant à la saisie.
 
-[!NOTE]
+> [!NOTE]
 > Le résultat de la recherche s'actualise lors de la saisie dans la zone de recherche.\
 Il est nécessaire de saisir au minimum trois caractères pour lancer la recherche.
 
@@ -562,7 +564,7 @@ La zone ci-dessous permet de sélectionner le répertoire contenant les images d
 
 Le bouton ![Sélection du répertoire contenant les images de la session](images/NewSession_Edit.png) permet de sélectionner le répertoire contenant les images de la session.
 
-[!TIP]
+> [!TIP]
 > A titre personnel, je stock les images de mes session Astro sur un disque dur externe, dans un répertoire nommé `AstroPhotos`.\
 Voici le pattern utilisé pour le stockage de mes images :\
 `D:\AstroPhotos\[Nom de l'objet]\[Date de la session]\`
