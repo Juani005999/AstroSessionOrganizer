@@ -17,6 +17,7 @@
             - [Panneau détail d'une session d'observation](#panneau-détail-dune-session-dobservations)
             - [Boîte de dialogue Création d'un Exif](#boîte-de-dialogue-création-dun-exif)
         - [Onglet Catalogue des objets célestes](#onglet-catalogue-des-objets-célestes)
+            - [Zone de filtres des objets célestes affichés](#zone-de-filtres-des-objets-célestes-affichés)
             - [Panneau détail d'un objet céleste](#panneau-détail-dun-objet-céleste)
         - [Onglet Equipements et sites d'observations](#onglet-equipements-et-sites-dobservations)
             - [Panneau propriétés d'un site ou d'un équipement](#panneau-propriétés-dun-site-ou-dun-équipement)
@@ -28,6 +29,19 @@
                 - [Propriétés d'un filtre](#propriétés-dun-filtre)
                 - [Propriétés d'un équipement divers](#propriétés-dun-équipement-divers)
                 - [Propriétés d'un logiciel](#propriétés-dun-logiciel)
+    - [Barre de statut](#barre-de-statut)
+        - [Barre de statut de l'onglet Sessions d'observations](#barre-de-statut-de-longlet-sessions-dobservations)
+        - [Barre de statut de l'onglet Catalogue des objets célestes](#barre-de-statut-de-longlet-catalogue-des-objets-célestes)
+        - [Barre de statut de l'onglet Equipements et sites d'observations](#barre-de-statut-de-longlet-equipements-et-sites-dobservations)
+- [Saisie](#saisie)
+    - [Session d'observations](#session-dobservations)
+        - [Ajout, modification, suppression d'une session d'observations](#ajout-modification-suppression-dune-session-dobservations)
+        - [Sélection d'un objet céleste](#sélection-dun-objet-céleste)
+            - [Boîte de dialogue de sélection d'un objet céleste](#boîte-de-dialogue-de-sélection-dun-objet-céleste)
+        - [Date de la session d'observations](#date-de-la-session-dobservations)
+        - [Sélection du site d'observations](#sélection-du-site-dobservations)
+        - [Sélection du répertoire contenant les images de la session](#sélection-du-répertoire-contenant-les-images-de-la-session)
+        - [Commentaires d'une session](#commentaires-dune-session)
 
 ## Affichage
 **ASO** est composé d'un menu, d'une barre d'outil, de trois onglets de visualisations, et d'une barre de statut.
@@ -112,7 +126,7 @@ La barre d'outils comprend les raccourcis vers les actions suivantes :
 - Supprimer l'élément sélectionné
 - Raccourci vers l'application ***AstroTargetSelector*** (***ATS***)
 
-> [!INFO]
+> [!NOTE]
 > Le détail des actions ci-dessus est décrite dans la partie ***Saisie***.
 
 <p align="right"><a href="#sommaire">Retour au sommaire</a></p>
@@ -234,16 +248,22 @@ L'affichage de cet onglet est divisé en quatre parties :
     Cet élément contient la liste des constellations de tous les objets du catalogue.
     - ***Type d'objets célestes***\
     Cet élément contient la liste des type d'objets célestes de tous les objets du catalogue.
-- Une zone de recherche permettant de filtrer la liste des objets célestes.\
-Cette zone comprend les filtres :
-    - ***Rechercher dans la liste*** : permet de rechercher sur le nom et/ou les dénominations.
-    - ***Type*** : permet de filtrer la liste en fonction du type d'objet céleste.
-    - ***Catalogue*** : permet de filtrer sur un catalogue (Messier, NGC, ...).
+- Une [zone de recherche](#zone-de-filtre-des-objets-célestes-affichés) permettant de filtrer la liste des objets célestes.
 - Une liste principale contenant la liste des objets célestes en fonction de l'élément sélectionné dans la liste arborescente et du filtre appliqué.
 - Un panneau permettant d'afficher le détail de l'objet céleste sélectionné.
 
 > [!TIP]
 > La liste des objets célestes peut être triée par ordre croissant ou décroissant en cliquant sur une en-tête de colonne de la liste.
+
+<p align="right"><a href="#sommaire">Retour au sommaire</a></p>
+
+##### Zone de filtres des objets célestes affichés
+![Zone de filtres des objets célestes affichés](images/ZoneFiltre_ObjetsCelestes.png)
+
+La zone de recherche permettant de filtrer la liste des objets célestes comprend les filtres suivants :
+- ***Rechercher dans la liste*** : permet de rechercher sur le nom et/ou les dénominations.
+- ***Type*** : permet de filtrer la liste en fonction du type d'objet céleste.
+- ***Catalogue*** : permet de filtrer sur un catalogue (Messier, NGC, ...).
 
 <p align="right"><a href="#sommaire">Retour au sommaire</a></p>
 
@@ -346,7 +366,8 @@ Informations affichées :
 
 > [!TIP]
 > La saisie de setup est optionnelle et permet de regrouper plusieurs équipements afin de faciliter la saisie d'une session d'observations.\
-La création d'un setup permet également l'affichage d'une miniature dans les Exifs.
+La création d'un setup permet également l'affichage d'une miniature dans les Exifs.\
+Un clic sur la miniature du setup permet l'affichage de l'image dans une nouvelle fenêtre.
 
 <p align="right"><a href="#sommaire">Retour au sommaire</a></p>
 
@@ -413,5 +434,145 @@ Ce panneau permet l'affichage des propriétés du logiciel sélectionné.
 Informations affichées :
 - Le Nom.
 - Le type de logiciel.
+
+<p align="right"><a href="#sommaire">Retour au sommaire</a></p>
+
+### Barre de statut
+![Barre de statut](images/Affichage_BarreDeStatut.png)
+
+La barre de statut affiche des informations supplémentaires en fonction de l'onglet affiché.
+
+#### Barre de statut de l'onglet Sessions d'observations
+![Barre de statut de l'onglet Sessions d'observations](images/Statut_Sessions.png)
+
+Lorsque l'onglet [Session d'observations](#onglet-sessions-dobservations) est affiché, la barre de statut affiche :
+- Le nombre total de sessions d'observations enregistrées.
+- Le nombre de sessions d'observations affichées dans la liste des sessions.
+
+[!NOTE]
+> Le nombre de sessions d'observations affichées dans la liste est dépendant de l'élément sélectionné dans la liste arborescente.
+
+<p align="right"><a href="#sommaire">Retour au sommaire</a></p>
+
+#### Barre de statut de l'onglet Catalogue des objets célestes
+![Barre de statut de l'onglet Catalogue des objets célestes](images/Statut_Objets.png)
+
+Lorsque l'onglet [Catalogue des objets célestes](#onglet-catalogue-des-objets-célestes) est affiché, la barre de statut affiche :
+- Le nombre total d'objets célestes répertoriés dans le catalogue.
+- Le nombre d'objets célestes affichés dans la liste des objets.
+
+[!NOTE]
+> Le nombre d'objets célestes affichés dans la liste est dépendant de l'élément sélectionné dans la liste arborescente, et des éléments positionnés dans la zone de filtre.
+
+<p align="right"><a href="#sommaire">Retour au sommaire</a></p>
+
+#### Barre de statut de l'onglet Equipements et sites d'observations
+![Barre de statut de l'onglet Equipements et sites d'observations](images/Statut_Equipements.png)
+
+Lorsque l'onglet [Equipements et sites d'observations](#onglet-equipements-et-sites-dobservations) est affiché, la barre de statut affiche :
+- Le nombre de sites d'observations enregistrés.
+- Le nombre de setups enregistrés.
+- Le nombre d'équipements enregistrés
+
+<p align="right"><a href="#sommaire">Retour au sommaire</a></p>
+
+## Saisie
+
+### Session d'observations
+![Edition d'une session d'observations](images/Session_New.png)
+
+<p align="right"><a href="#sommaire">Retour au sommaire</a></p>
+
+#### Ajout, modification, suppression d'une session d'observations
+
+Pour ajouter, modifier ou supprimer une session d'observations, vous pouvez le faire :
+- Depuis la barre d'outils :
+    - Le bouton ![Nouvelle Session](images/ToolBar_NewSession.png) permet d'ouvrir la boîte de dialogue de création d'une nouvelle session.
+    - Le bouton ![Modifier](images/ToolBar_EditSession.png) permet de modifier la session sélectionnée.\
+    Si aucune session n'est sélectionnée, ce bouton est grisé.
+    - Le bouton ![Supprimer](images/ToolBar_Delete.png) permet de supprimer la session sélectionnée.\
+    Si aucune session n'est sélectionnée, ce bouton est grisé.
+
+- Depuis le menu contextuel :\
+![Menu contextuel](images/Session_ContextMenu_NewSession.png)\
+En faisant un clic avec le bouton droit de la souris sur la liste des sessions d'observations, le menu contextuel apparait.\
+Ce menu contextuel contient les éléments suivants :
+    - ***Nouvelle session d'observations*** : permet d'ouvrir la boîte de dialogue de création d'une nouvelle session.
+    - ***Modifier*** : permet de modifier la session sélectionnée.\
+    Si aucune session n'est sélectionnée, ce menu est grisé.
+    - ***Supprimer*** : permet de supprimer la session sélectionnée.\
+    Si aucune session n'est sélectionnée, ce menu est grisé.
+
+<p align="right"><a href="#sommaire">Retour au sommaire</a></p>
+
+#### Sélection d'un objet céleste
+
+- La zone ci-dessous indique le nom de l'objet céleste actuellement sélectionné pour la session d'observations.\
+![Nom de l'objet céleste](images/NewSession_SelectionObjet.png)
+\
+Le bouton ![Sélection de l'objet céleste](images/NewSession_Edit.png) permet d'ouvrir la [boîte de dialogue de sélection d'un objet céleste](#boîte-de-dialogue-de-sélection-dun-objet-céleste).
+
+
+- La zone ci-dessous indique les informations complémentaires concernant l'objet céleste sélectionné.\
+![Informations de l'objet céleste](images/NewSession_InformationObjet.png)\
+Ces informations sont :
+    - Type de l'objet.
+    - Nom et abbréviation de la constellation.
+    - Dénominations supplémentaires de l'objet.
+
+
+<p align="right"><a href="#sommaire">Retour au sommaire</a></p>
+
+##### Boîte de dialogue de sélection d'un objet céleste
+![Boîte de dialogue de sélection d'un objet céleste](images/BoiteDeDialogue_SelectionObjet.png)
+
+Cette boîte de dialogue permet la sélection d'un objet céleste pour la session.\
+Elle est composée de deux zones :
+- ***Rechercher*** : zone de saisie permettant de saisir les éléments de recherche.
+- ***Résultat de la recherche*** : résultat de la recherche dans le catalogue complet correspondant à la saisie.
+
+[!NOTE]
+> Le résultat de la recherche s'actualise lors de la saisie dans la zone de recherche.\
+Il est nécessaire de saisir au minimum trois caractères pour lancer la recherche.
+
+<p align="right"><a href="#sommaire">Retour au sommaire</a></p>
+
+#### Date de la session d'observations
+![Date de la session d'observations](images/Session_Date.png)
+
+Ce champ permet de sélectionner la date de la session d'observations.
+
+<p align="right"><a href="#sommaire">Retour au sommaire</a></p>
+
+#### Sélection du site d'observations
+
+La zone ci-dessous permet de sélectionner le site d'observations de la session.
+
+![Sélection du site d'observations](images/Session_Site.png)
+
+Le bouton ![Nouveau du site d'observations](images/Session_NewSite_button.png) permet d'ouvrir la boîte de dialogue de création d'un nouveau site d'observations.
+
+<p align="right"><a href="#sommaire">Retour au sommaire</a></p>
+
+#### Sélection du répertoire contenant les images de la session
+
+La zone ci-dessous permet de sélectionner le répertoire contenant les images de la session.
+
+![Sélection du répertoire contenant les images de la session](images/Session_RepertoireImages.png)
+
+Le bouton ![Sélection du répertoire contenant les images de la session](images/NewSession_Edit.png) permet de sélectionner le répertoire contenant les images de la session.
+
+[!TIP]
+> A titre personnel, je stock les images de mes session Astro sur un disque dur externe, dans un répertoire nommé `AstroPhotos`.\
+Voici le pattern utilisé pour le stockage de mes images :\
+`D:\AstroPhotos\[Nom de l'objet]\[Date de la session]\`
+
+<p align="right"><a href="#sommaire">Retour au sommaire</a></p>
+
+#### Commentaires d'une session
+
+La zone ci-dessous permet de positionner un commentaire pour la session.
+
+![Commentaires d'une session](images/Session_Commentaires.png)
 
 <p align="right"><a href="#sommaire">Retour au sommaire</a></p>
