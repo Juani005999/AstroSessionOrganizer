@@ -42,6 +42,15 @@
         - [Sélection du site d'observations](#sélection-du-site-dobservations)
         - [Sélection du répertoire contenant les images de la session](#sélection-du-répertoire-contenant-les-images-de-la-session)
         - [Commentaires d'une session](#commentaires-dune-session)
+        - [Saisie de l'équipement](#saisie-de-léquipement)
+            - [Sélection d'un Setup](#sélection-dun-setup)
+            - [Sélection d'équipements supplémentaires](#sélection-déquipements-supplémentaires)
+            - [Liste des équipements de la session](#liste-des-équipements-de-la-session)
+        - [Saisie des logiciels](#saisie-des-logiciels)
+            - [Ajout/suppression de logiciels à la session](#ajoutsuppression-de-logiciels-à-la-session)
+        - [Saisie des observations de la session](#saisie-des-observations-de-la-session)
+            - [Ajout/modification d'une observation](#ajoutmodification-dune-observation)
+            - [Importation des informations d'un fichier Fit](#importation-des-informations-dun-fichier-fit)
 
 ## Affichage
 **ASO** est composé d'un menu, d'une barre d'outil, de trois onglets de visualisations, et d'une barre de statut.
@@ -576,5 +585,144 @@ Voici le pattern utilisé pour le stockage de mes images :\
 La zone ci-dessous permet de positionner un commentaire pour la session.
 
 ![Commentaires d'une session](images/Session_Commentaires.png)
+
+<p align="right"><a href="#sommaire">Retour au sommaire</a></p>
+
+#### Saisie de l'équipement
+
+![Saisie de l'équipement](images/Session_Equipements.png)
+
+##### Sélection d'un Setup
+
+La zone ci-dessous permet de sélectionner le [Setup](#propriétés-dun-setup).
+
+![Sélection d'un Setup](images/Session_Equipements_Setup.png)
+
+> [!TIP]
+> La sélection d'un Setup est **optionnelle**.\
+> Vous pouvez sélectionner les équipements manuellement, voir faire un mix d'un Setup plus divers équipements additionnels pour la session.
+
+<p align="right"><a href="#sommaire">Retour au sommaire</a></p>
+
+##### Sélection d'équipements supplémentaires
+
+La zone ci-dessous permet d'ajouter des équipements additionnels à votre session.
+
+![Sélection d'équipements supplémentaires](images/Session_Equipements_additionnel.png)
+
+> [!IMPORTANT]
+> Les équipements faisant partie du Setup actuellement sélectionné sont retirés de la liste, ainsi que les équipements additionnels déjà sélectionnés.
+
+> [!NOTE]
+> Pour ajouter un élement de la liste des équipements supplémentaires à la liste des équipements de la session, sélectionnez l'équipement puis cliquez sur la flèche verte (sens vers la droite), ou double-cliquer sur l'équipement.
+
+> [!TIP]
+> Si un nouvel équipement ne figure pas encore dans la liste des équipements, vous pouvez créer un nouvel équipement en cliquant sur le bouton ![Nouvel équipement](images/Session_Equipements_new_equipement.png).\
+> Le nouvel équipement enregistré figurera désormais dans la [liste de vos équipements](#onglet-equipements-et-sites-dobservations).
+
+<p align="right"><a href="#sommaire">Retour au sommaire</a></p>
+
+##### Liste des équipements de la session
+
+La zone ci-dessous liste les équipements actuellement sélectionnés pour votre session d'observations.
+
+![Liste des équipements de la session](images/Session_Equipements_Session.png)
+
+> [!NOTE]
+> Pour retirer un élement de la liste des équipements de la session, sélectionnez l'équipement puis cliquez sur la flèche rouge (sens vers la gauche), ou double-cliquer sur l'équiepement.
+
+> [!TIP]
+> Les équipements faisant partie du Setup sélectionné sont matérialisés par un fond gris.
+
+> [!IMPORTANT]
+> Un équipement faisant partie du Setup sélectionné ne peut pas être retiré de la liste.
+
+> [!NOTE]
+> Vous pouvez donner un nom différent à l'équipement sélectionné (hormis les équipements faisant partie du Setup sélectionné).\
+> Exemple : ***Guidage : SW Evoguide ED50***.\
+> Pour celà, sélectionner l'équipement souhaité, puis cliquez sur le bouton ![Nouveau nom d'équipement](images/Session_Equipements_NewName.png).\
+> Pour redonner le nom par défaut, supprimer le texte et laissez la zone vide.
+
+<p align="right"><a href="#sommaire">Retour au sommaire</a></p>
+
+#### Saisie des logiciels
+
+La zone ci-dessous liste les logiciels sélectionnés pour votre session d'observations.
+
+![Saisie des logiciels](images/Session_Logiciels.png)
+
+> [!NOTE]
+> Vous pouvez ajouter/supprimer des logiciels pour votre session en cliquant sur le bouton ![ajouter/supprimer des logiciels](images/Session_Logiciels_new.png).
+
+<p align="right"><a href="#sommaire">Retour au sommaire</a></p>
+
+##### Ajout/suppression de logiciels à la session
+
+La zone ci-dessous liste les équipements actuellement sélectionnés pour votre session d'observations.
+
+![Ajout/suppression de logiciels à la session](images/Session_Logiciels_Select.png)
+
+- La liste de gauche indique la liste des logiciels supplémentaires disponibles.
+- La liste de droite indique la liste des logiciels actuellement sélectionnés pour la session.
+
+> [!TIP]
+> Les logiciels sont divisés en quatre rubriques :
+> - Aqcquisition.
+> - Pré-traitement.
+> - Traitement.
+> - Divers.
+
+> [!NOTE]
+> Pour passer un logiciel d'une liste à l'autre, sélectionnez le logiciel souhaité puis cliquez sur la flèche correspondante.\
+> Vous pouvez également double-cliquer sur un logiciel pour le faire passer d'une liste à l'autre.
+
+> [!TIP]
+> Si un nouveau logiciel ne figure pas encore dans la liste, vous pouvez en créer un en cliquant sur le bouton ![ajouter un nouveau logiciel](images/Session_Logiciels_new.png).\
+> Le nouveau logiciel enregistré figurera désormais dans la [liste de vos équipements](#onglet-equipements-et-sites-dobservations).
+
+<p align="right"><a href="#sommaire">Retour au sommaire</a></p>
+
+#### Saisie des observations de la session
+
+La zone ci-dessous liste les observations de votre session d'observations.
+
+![Saisie des observations de la session](images/Session_Observations.png)
+
+> [!NOTE]
+> Le bouton ![ajouter une nouvelle observation](images/Session_Observations_New.png) permet d'ajouter une nouvelle observation.\
+> Le bouton ![éditer une observation](images/Session_Observations_Edit.png) permet de modifier une observation.\
+> Le bouton ![supprimer une observation](images/Session_Observations_Delete.png) permet de supprimer une observation.
+
+<p align="right"><a href="#sommaire">Retour au sommaire</a></p>
+
+##### Ajout/modification d'une observation
+
+L'ajout ou la modification d'une observation s'effectue grâce à la boîte de dialogue ci-dessous.
+
+![Edition d'une observation](images/Observations.png)
+
+Cette boîte de dialogue permet la saisie de toute les informations relatives à l'observation.
+
+> [!TIP]
+> Les informations concernant la Lune sont renseignées automatiquement en fonction de la date et l'heure de l'observation.\
+> Vous pouvez cependant modifier ces informations si vous le souhaitez.
+
+> [!NOTE]
+> Il est possible de renseigner différents type :
+> - Brutes
+> - Darks
+> - Bias / Offset
+> - Flat
+
+##### Importation des informations d'un fichier Fit
+
+Afin de faciliter la saisie, il est possible d'importer les informations de l'observation depuis un fichier Fit.
+
+- Cliquez sur le bouton ***Ouvrir un fichier*** afin de sélectionner le fichier Fit à partir duquel seront lues les en-têtes (informations de l'observation au format standard).
+
+> [!TIP]
+> Personnellement, je sélectionne le fichier ***[MaCible]_stacked.fit***, résultat de l'empilement via le logiciel ***Siril***.
+
+- Cliquez sur le bouton ***Import*** afin de renseigner l'observation avec les informations contenues dans les en-tête du fichier Fit.
 
 <p align="right"><a href="#sommaire">Retour au sommaire</a></p>
