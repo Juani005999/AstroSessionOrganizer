@@ -97,7 +97,7 @@ Permet de quitter l'application **ASO**.
 <p align="right"><a href="#sommaire">Retour au sommaire</a></p>
 
 #### Menu 'Outils'
-![Menu Fichier](images/Menu_Outil.png)
+![Menu Outils](images/Menu_Outil.png)
 
 Le menu '***Outils***' contient l'élément suivant :
 - **Options**\
@@ -106,7 +106,7 @@ Cette action permet d'ouvrir la boîte de dialogue ***Options***.
 <p align="right"><a href="#sommaire">Retour au sommaire</a></p>
 
 ##### Boîte de dialogue 'Options'
-![Menu Fichier](images/BoiteDeDialogue_Options.png)
+![Boîte de dialogue Options](images/BoiteDeDialogue_Options.png)
 
 Cette boîte de dialogue permet de définir les options de communication avec les logiciels ***Stellarium*** et ***Cartes du Ciel***.\
 Les Options par défaut sont :
@@ -128,7 +128,7 @@ Cette action permet d'ouvrir la boîte de dialogue ***A Propos***.
 <p align="right"><a href="#sommaire">Retour au sommaire</a></p>
 
 ##### Boîte de dialogue 'A Propos'
-![Menu Fichier](images/BoiteDeDialogue_APropos.png)
+![Boîte de dialogue A Propos](images/BoiteDeDialogue_APropos.png)
 
 Cette boîte de dialogue permet d'afficher les informations à propos du logiciel ***AstroSessionOrganizer*** (***ASO***).\
 Il est également possible, via le bouton présent, d'ouvrir le fichier des logs de l'application.
@@ -165,7 +165,7 @@ Cette partie comprend l'affichage des onglets suivants :
 <p align="right"><a href="#sommaire">Retour au sommaire</a></p>
 
 #### Onglet Sessions d'observations
-![Onglet Session d'observations](images/Onglet_Sessions.png)
+![Onglet Sessions d'observations](images/Onglet_Sessions.png)
 
 Cet onglet permet d'afficher la liste des sessions d'observations enregistrées.\
 L'affichage de cet onglet est divisé en trois parties :
@@ -185,7 +185,7 @@ L'affichage de cet onglet est divisé en trois parties :
 <p align="right"><a href="#sommaire">Retour au sommaire</a></p>
 
 ##### Panneau détail d'une Session d'observations
-![Détail d'une session d'observation](images/Panneau_DetailSession.png)
+![Détail d'une session d'observations](images/Panneau_DetailSession.png)
 
 Lorsqu'une session d'observation est sélectionnée dans la liste, le panneau de détail de la session apparait.\
 Ce panneau permet l'affichage des différentes informations concernant la session sélectionnée, et la possibilité d'effectuer des actions supplémentaires sur cette session.
@@ -236,7 +236,7 @@ Ce répertoire est défini dans les paramètres de la session (Cf. partie [Saisi
 
 ##### Boîte de dialogue Création d'un Exif
 ![Création d'un Exif](images/BoiteDeDialogue_Exif.png)
-![Exif](images/Exif_Resultat.png)
+![Exemple de rendu d'un Exif](images/Exif_Resultat.png)
 
 Cette boîte de dialogue permet la création d'un Exif pour la session d'observations.\
 Elle contient une zone de paramètres, et une zone de rendu.
@@ -578,7 +578,7 @@ La zone ci-dessous permet de sélectionner le site d'observations de la session.
 
 ![Sélection du site d'observations](images/Session_Site.png)
 
-Le bouton ![Nouveau du site d'observations](images/Session_NewSite_button.png) permet d'ouvrir la boîte de dialogue de création d'un nouveau site d'observations.
+Le bouton ![Nouveau site d'observations](images/Session_NewSite_button.png) permet d'ouvrir la boîte de dialogue de création d'un nouveau site d'observations.
 
 > [!NOTE]
 > Le nouveau site enregistré figurera désormais dans la liste de vos [sites d'observations](#onglet-equipements-et-sites-dobservations). 
@@ -888,7 +888,7 @@ Ce menu contextuel contient les éléments suivants :
 
 #### Edition d'un équipement
 
-![Edition d'un setup](images/Equipement_New.png)
+![Edition d'un équipement](images/Equipement_New.png)
 
 La boîte de dialogue d'ajout ou d'édition d'équipement permet de sélectionner un type d'équipement, et de lui donner un nom.
 
@@ -933,7 +933,7 @@ Ce menu contextuel contient les éléments suivants :
 
 #### Edition d'un logiciel
 
-![Edition d'un setup](images/Logiciel_New.png)
+![Edition d'un logiciel](images/Logiciel_New.png)
 
 La boîte de dialogue d'ajout ou d'édition de logiciel permet de sélectionner un type de logiciel, et de lui donner un nom.
 
