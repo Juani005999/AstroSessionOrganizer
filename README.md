@@ -147,7 +147,7 @@ La barre d'outils comprend les raccourcis vers les actions suivantes :
 - Nouveau logiciel
 - Modifier l'élément sélectionné
 - Supprimer l'élément sélectionné
-- Raccourci vers l'application ***AstroTargetSelector*** (***ATS***)
+- Raccourci vers l'application ***[AstroTargetSelector](https://github.com/Juani005999/AstroTargetSelector)*** (***ATS***)
 
 > [!NOTE]
 > Le détail des actions ci-dessus est décrit dans la partie ***[Saisie](#saisie)***.
@@ -219,9 +219,9 @@ Lorsqu'aucune image n'a été sélectionnée, ce bouton est grisé.
 - L'icône ![ASTAP](images/Bouton_Astap.png) permet de lancer le logiciel ***ASTAP*** pour faire de l'astrométrie sur l'image de la session.\
 Lors du clic sur ce bouton, une boîte de dialogue apparait permettant la sélection de l'image à envoyer dans l'astrométrie ***ASTAP***. Par défaut, le répertoire sélectionné pour la sélection de l'image est le répertoire des images saisi pour la session.\
 Si le logiciel ***ASTAP*** n'est pas installé sur l'ordinateur, ce bouton est grisé.
-- L'icône ![AstroTargetSelector](images/Bouton_ATS.png) permet de visualiser l'objet de la session dans le logiciel ***AstroTargetSelector***.\
-Lors du clic sur ce bouton, le logiciel ***AstroTargetSelector*** s'ouvre avec l'objet de la session présélectionné.\
-Si le logiciel ***AstroTargetSelector*** n'est pas installé sur l'ordinateur, ce bouton est grisé.
+- L'icône ![AstroTargetSelector](images/Bouton_ATS.png) permet de visualiser l'objet de la session dans le logiciel ***[AstroTargetSelector](https://github.com/Juani005999/AstroTargetSelector)***.\
+Lors du clic sur ce bouton, le logiciel ***[AstroTargetSelector](https://github.com/Juani005999/AstroTargetSelector)*** s'ouvre avec l'objet de la session présélectionné.\
+Si le logiciel ***[AstroTargetSelector](https://github.com/Juani005999/AstroTargetSelector)*** n'est pas installé sur l'ordinateur, ce bouton est grisé.
 - L'icône ![Cartes du Ciel](images/Bouton_CDC.png) permet de visualiser l'objet de la session dans le logiciel ***Cartes du Ciel***.\
 Lors du clic sur ce bouton, le logiciel ***Cartes du Ciel*** s'ouvre avec l'objet de la session présélectionné.\
 Si le logiciel ***Cartes du Ciel*** n'est pas installé sur l'ordinateur, ce bouton est grisé.
@@ -321,9 +321,9 @@ Actions possibles :
 - En cliquant sur la miniature de la constellation, cela permet l'affichage de l'image dans une nouvelle fenêtre.
 - En cliquant sur la miniature de la session sélectionnée, cela permet l'affichage de l'image dans une nouvelle fenêtre.
 - L'icône ![Loupe](images/Bouton_Loupe.png) est un raccourci permettant d'afficher la session d'observations concernée directement dans l'onglet ***[Sessions d'observations](#onglet-sessions-dobservations)***.
-- L'icône ![AstroTargetSelector](images/Bouton_ATS.png) permet de visualiser l'objet céleste dans le logiciel ***AstroTargetSelector***.\
-Lors du clic sur ce bouton, le logiciel ***AstroTargetSelector*** s'ouvre avec l'objet céleste présélectionné.\
-Si le logiciel ***AstroTargetSelector*** n'est pas installé sur l'ordinateur, ce bouton est grisé.
+- L'icône ![AstroTargetSelector](images/Bouton_ATS.png) permet de visualiser l'objet céleste dans le logiciel ***[AstroTargetSelector](https://github.com/Juani005999/AstroTargetSelector)***.\
+Lors du clic sur ce bouton, le logiciel ***[AstroTargetSelector](https://github.com/Juani005999/AstroTargetSelector)*** s'ouvre avec l'objet céleste présélectionné.\
+Si le logiciel ***[AstroTargetSelector](https://github.com/Juani005999/AstroTargetSelector)*** n'est pas installé sur l'ordinateur, ce bouton est grisé.
 - L'icône ![Cartes du Ciel](images/Bouton_CDC.png) permet de visualiser l'objet céleste dans le logiciel ***Cartes du Ciel***.\
 Lors du clic sur ce bouton, le logiciel ***Cartes du Ciel*** s'ouvre avec l'objet céleste présélectionné.\
 Si le logiciel ***Cartes du Ciel*** n'est pas installé sur l'ordinateur, ce bouton est grisé.
@@ -967,8 +967,8 @@ La boîte de dialogue d'ajout ou d'édition de logiciel permet de sélectionner 
 | 01/02/2023 | 0.4.1.0 | <ul><li>Observations : Ajout du nouveau champ ‘Offset/Brightness’ aux observations.</li><li>Modification de la base de données : Modification de la structure de la table Observations.</li></ul> |
 | 01/02/2023 | 0.4.0.3 | <ul><li>FIT Header reader : Correction de la lecture des champs de type COMMENT dans le Header Data Unit.</li><li>Boîte de dialogue Observations : Modifications cosmétiques.</li></ul> |
 | 31/01/2023 | 0.4.0.2 | <ul><li>FIT Header reader : Lors de la création/édition d’une observation, un lecteur d’en-tête de fichier fit vous permet de visualiser des données HDU d’une image fit/fits.</li></ul> |
-| 31/01/2023 | 0.4.0.1 | <ul><li>Image constellation : Lors de la création/édition d’une session, copie automatique de l’image de la constellation dans le répertoire des images de la session.</li><li>Communication avec AstroTargetSelector : Envoi des dénominations de l’objet.</li><li>Ouverture dans Stellarium : Mise en avant-plan de Stellarium lors de l’affichage d’un objet.</li><li>Ouverture dans Cartes du Ciel : Mise en avant-plan de Cartes du Ciel lors de l’affichage d’un objet.</li><li>Affichage d’une session : Affichage du RA/DEC de l’objet céleste de la session.</li></ul> |
-| 28/01/2023 | 0.3.0.1 | <ul><li>Communication avec AstroTargetSelector : Possibilité d’afficher un objet du catalogue afin de visualiser l’évolution de la hauteur dans le ciel et le temps de pose max.</li><li>Modification de la base de données : Mise à jour de la table des objets célestes.</li></ul> |
+| 31/01/2023 | 0.4.0.1 | <ul><li>Image constellation : Lors de la création/édition d’une session, copie automatique de l’image de la constellation dans le répertoire des images de la session.</li><li>Communication avec [AstroTargetSelector](https://github.com/Juani005999/AstroTargetSelector) : Envoi des dénominations de l’objet.</li><li>Ouverture dans Stellarium : Mise en avant-plan de Stellarium lors de l’affichage d’un objet.</li><li>Ouverture dans Cartes du Ciel : Mise en avant-plan de Cartes du Ciel lors de l’affichage d’un objet.</li><li>Affichage d’une session : Affichage du RA/DEC de l’objet céleste de la session.</li></ul> |
+| 28/01/2023 | 0.3.0.1 | <ul><li>Communication avec [AstroTargetSelector](https://github.com/Juani005999/AstroTargetSelector) : Possibilité d’afficher un objet du catalogue afin de visualiser l’évolution de la hauteur dans le ciel et le temps de pose max.</li><li>Modification de la base de données : Mise à jour de la table des objets célestes.</li></ul> |
 | 01/01/2023 | 0.1.0.1 | Version initiale. |
 
 <p align="right"><a href="#sommaire">Retour au sommaire</a></p>
