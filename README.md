@@ -1,5 +1,5 @@
 # AstroSessionOrganizer
-***AstroSessionOrganizer*** (**ASO**) est un utilitaire (freeware) sous ***Windows*** permettant la gestion et la sauvegarde des sessions d'observations astro-photographiques et des données associées.
+***AstroSessionOrganizer*** (**ASO**) est un utilitaire (freeware) sous ***Windows*** permettant la gestion et la sauvegarde des sessions d'observations astrophotographiques et des données associées.
 
 ![AstroSessionOrganizer](images/ASO.png)
 
@@ -23,7 +23,7 @@
             - [Panneau propriétés d'un site ou d'un équipement](#panneau-propriétés-dun-site-ou-dun-équipement)
                 - [Propriétés d'un site d'observations](#propriétés-dun-site-dobservations)
                 - [Propriétés d'un setup](#propriétés-dun-setup)
-                - [Propriétés d'une lunette / téléscope](#propriétés-dune-lunette--téléscope)
+                - [Propriétés d'une lunette / télescope](#propriétés-dune-lunette--télescope)
                 - [Propriétés d'une monture](#propriétés-dune-monture)
                 - [Propriétés d'une caméra](#propriétés-dune-caméra)
                 - [Propriétés d'un filtre](#propriétés-dun-filtre)
@@ -52,7 +52,7 @@
             - [Ajout/modification d'une observation](#ajoutmodification-dune-observation)
             - [Importation des informations d'un fichier Fit](#importation-des-informations-dun-fichier-fit)
     - [Objet céleste](#objet-céleste)
-        - [Ajout, modification, suppression d'un objet céleste](#ajout-modification-suppression-dune-session-dobservations)
+        - [Ajout, modification, suppression d'un objet céleste](#ajout-modification-suppression-dun-objet-céleste)
     - [Site d'observations](#site-dobservations)
         - [Ajout, modification, suppression d'un site d'observations](#ajout-modification-suppression-dun-site-dobservations)
     - [Setup](#setup)
@@ -67,7 +67,7 @@
 - [Révisions](#révisions)
 
 ## Affichage
-**ASO** est composé d'un menu, d'une barre d'outil, de trois onglets de visualisations, et d'une barre de statut.
+**ASO** est composé d'un menu, d'une barre d'outils, de trois onglets de visualisation et d'une barre de statut.
 
 <p align="right"><a href="#sommaire">Retour au sommaire</a></p>
 
@@ -89,7 +89,7 @@ Le menu '***Fichier***' contient les éléments suivants :
 Cette action permet de sauvegarder la base de données de **ASO**.
 
 > [!WARNING]
-> La sauvegarde de la base de données **ne comprend pas** les images des sessions d'observations, hormis les images générées par ***ASO***. La base de données contient les informations de sessions, des objets célestes, des équipements et sites d'observations.
+> La sauvegarde de la base de données **ne comprend pas** les images des sessions d'observations, hormis les images générées par ***ASO***. La base de données contient les informations des sessions, des objets célestes, des équipements et sites d'observations.
 
 - **Quitter**\
 Permet de quitter l'application **ASO**.
@@ -131,7 +131,7 @@ Cette action permet d'ouvrir la boîte de dialogue ***A Propos***.
 ![Menu Fichier](images/BoiteDeDialogue_APropos.png)
 
 Cette boîte de dialogue permet d'afficher les informations à propos du logiciel ***AstroSessionOrganizer*** (***ASO***).\
-Il est également possible via le bouton présent d'ouvrir le fichier des logs de l'application.
+Il est également possible, via le bouton présent, d'ouvrir le fichier des logs de l'application.
 
 <p align="right"><a href="#sommaire">Retour au sommaire</a></p>
 
@@ -150,7 +150,7 @@ La barre d'outils comprend les raccourcis vers les actions suivantes :
 - Raccourci vers l'application ***AstroTargetSelector*** (***ATS***)
 
 > [!NOTE]
-> Le détail des actions ci-dessus est décrite dans la partie ***[Saisie](#saisie)***.
+> Le détail des actions ci-dessus est décrit dans la partie ***[Saisie](#saisie)***.
 
 <p align="right"><a href="#sommaire">Retour au sommaire</a></p>
 
@@ -175,12 +175,12 @@ L'affichage de cet onglet est divisé en trois parties :
     - ***Constellations***\
     Cet élément contient la liste des constellations correspondant aux sessions présentes dans la base de données.
     - ***Type d'objets célestes***\
-    Cet élément contient la liste des type d'objets célestes correspondant aux sessions présentes dans la base de données.
+    Cet élément contient la liste des types d'objets célestes correspondant aux sessions présentes dans la base de données.
 - Une liste principale contenant la liste des sessions en fonction de l'élément sélectionné dans la liste arborescente.
 - Un panneau permettant d'afficher le détail d'une session sélectionnée.
 
 > [!TIP]
-> La liste des sessions peut être triée par ordre croissant ou décroissant en cliquant sur une en-tête de colonne de la liste.
+> La liste des sessions peut être triée par ordre croissant ou décroissant en cliquant sur un en-tête de colonne de la liste.
 
 <p align="right"><a href="#sommaire">Retour au sommaire</a></p>
 
@@ -201,36 +201,36 @@ Informations affichées :
     - Coordonnées en RA/DEC.
 - Informations sur la session :
     - Date.
-    - Temps total (calculée à partir des brutes ajoutés à la session).
+    - Temps total (calculé à partir des brutes ajoutées à la session).
     - Site d'observations.
     - Setup utilisé (si défini dans la session).
     - Commentaires.
     - Répertoire où se trouvent les images de la session.
-    - Liste de équipements utilisés.
+    - Liste des équipements utilisés.
     - Liste des logiciels utilisés pour le traitement.
     - Liste des observations (brutes, darks, ...).
 
 Actions possibles :
-- En cliquant sur la miniature de la session, celà permet l'affichage de l'image dans une nouvelle fenêtre.
-- L'icone ![Loupe](images/Bouton_Loupe.png) est un raccourci permettant d'afficher l'objet céleste concerné directement dans l'onglet ***[Catalogue des objets célestes](#onglet-catalogue-des-objets-célestes)***.
-- L'icone ![Nouvelle miniature](images/Bouton_NewThumbnail.png) permet de modifier l'image de la session affichée dans la miniature.
-- Lorsqu'une image pour la miniature de la session a été sélectionnée, l'icone ![Supprimer miniature](images/Bouton_DeleteThumbnail.png) permet de supprimer cette sélection. L'image utilisée redevient l'image par défaut.\
+- En cliquant sur la miniature de la session, cela permet l'affichage de l'image dans une nouvelle fenêtre.
+- L'icône ![Loupe](images/Bouton_Loupe.png) est un raccourci permettant d'afficher l'objet céleste concerné directement dans l'onglet ***[Catalogue des objets célestes](#onglet-catalogue-des-objets-célestes)***.
+- L'icône ![Nouvelle miniature](images/Bouton_NewThumbnail.png) permet de modifier l'image de la session affichée dans la miniature.
+- Lorsqu'une image pour la miniature de la session a été sélectionnée, l'icône ![Supprimer miniature](images/Bouton_DeleteThumbnail.png) permet de supprimer cette sélection. L'image utilisée redevient l'image par défaut.\
 Lorsqu'aucune image n'a été sélectionnée, ce bouton est grisé.
-- L'icone ![ASTAP](images/Bouton_Astap.png) permet de lancer le logiciel ***ASTAP*** pour faire de l'astrométrie sur l'image de la session.\
-Lors du clic sur ce bouton, une boîte de dialogue apparait permettant la sélection de l'image a envoyer dans l'astrométrie ***ASTAP***. Par défaut, le répertoire sélectionné pour la sélection de l'image est le répertoire des images saisi pour la session.\
+- L'icône ![ASTAP](images/Bouton_Astap.png) permet de lancer le logiciel ***ASTAP*** pour faire de l'astrométrie sur l'image de la session.\
+Lors du clic sur ce bouton, une boîte de dialogue apparait permettant la sélection de l'image à envoyer dans l'astrométrie ***ASTAP***. Par défaut, le répertoire sélectionné pour la sélection de l'image est le répertoire des images saisi pour la session.\
 Si le logiciel ***ASTAP*** n'est pas installé sur l'ordinateur, ce bouton est grisé.
-- L'icone ![AstroTargetSelector](images/Bouton_ATS.png) permet de visualiser l'objet de la session dans le logiciel ***AstroTargetSelector***.\
-Lors du clic sur ce bouton, le logiciel ***AstroTargetSelecor*** s'ouvre avec l'objet de la session présélectionné.\
+- L'icône ![AstroTargetSelector](images/Bouton_ATS.png) permet de visualiser l'objet de la session dans le logiciel ***AstroTargetSelector***.\
+Lors du clic sur ce bouton, le logiciel ***AstroTargetSelector*** s'ouvre avec l'objet de la session présélectionné.\
 Si le logiciel ***AstroTargetSelector*** n'est pas installé sur l'ordinateur, ce bouton est grisé.
-- L'icone ![Cartes du Ciel](images/Bouton_CDC.png) permet de visualiser l'objet de la session dans le logiciel ***Cartes du Ciel***.\
+- L'icône ![Cartes du Ciel](images/Bouton_CDC.png) permet de visualiser l'objet de la session dans le logiciel ***Cartes du Ciel***.\
 Lors du clic sur ce bouton, le logiciel ***Cartes du Ciel*** s'ouvre avec l'objet de la session présélectionné.\
 Si le logiciel ***Cartes du Ciel*** n'est pas installé sur l'ordinateur, ce bouton est grisé.
-- L'icone ![Stellarium](images/Bouton_Stellarium.png) permet de visualiser l'objet de la session dans le logiciel ***Stellarium***.\
+- L'icône ![Stellarium](images/Bouton_Stellarium.png) permet de visualiser l'objet de la session dans le logiciel ***Stellarium***.\
 Lors du clic sur ce bouton, le logiciel ***Stellarium*** s'ouvre avec l'objet de la session présélectionné.\
 Si le logiciel ***Stellarium*** n'est pas installé sur l'ordinateur, ce bouton est grisé.
-- L'icone ![Images](images/Bouton_Images.png) permet d'ouvrir le répertoire des images de la session.\
+- L'icône ![Images](images/Bouton_Images.png) permet d'ouvrir le répertoire des images de la session.\
 Ce répertoire est défini dans les paramètres de la session (Cf. partie [Saisie d'une session](#session-dobservations)).
-- L'icone ![Exif](images/Bouton_Exif.png) permet d'ouvrir la boîte de dialogue permettant la création d'un Exif pour la session (Cf. partie [Boîte de dialogue Création d'un Exif de session](#boîte-de-dialogue-création-dun-exif)).
+- L'icône ![Exif](images/Bouton_Exif.png) permet d'ouvrir la boîte de dialogue permettant la création d'un Exif pour la session (Cf. partie [Boîte de dialogue Création d'un Exif de session](#boîte-de-dialogue-création-dun-exif)).
 
 <p align="right"><a href="#sommaire">Retour au sommaire</a></p>
 
@@ -246,18 +246,18 @@ La zone de paramètres contient les éléments suivants :
 - ***Afficher les commentaires*** : affiche les commentaires de la session. Si aucun commentaire n'a été saisi pour la session, cette zone est grisée.
 - ***Afficher les dénominations*** : affiche les dénominations secondaires de l'objet céleste.
 - ***Afficher les observations*** : affiche la liste des observations pour la session.
-- ***Afficher l'image de l'objet à la création (Haut / Bas)*** : ajoute, lors de la création de l'exif, l'image de la session, soit au-dessous, soit en dessous des données de l'Exif.
+- ***Afficher l'image de l'objet à la création (Haut / Bas)*** : ajoute, lors de la création de l'exif, l'image de la session, soit au-dessus, soit en dessous des données de l'Exif.
 
 La zone de droite des données de l'Exif permet d'afficher au choix quatre images :
 - ***Afficher l'image de l'objet*** : affiche une miniature de l'image de la session.
 - ***Afficher l'image de la constellation*** : affiche une miniature de la constellation de l'objet céleste.
 - ***Afficher l'image du setup*** : affiche l'image du setup sélectionné pour cette session.
-- ***Afficher l'image du site*** : Affiche l'image du site d'observation.
+- ***Afficher l'image du site*** : affiche l'image du site d'observations.
 
 > [!TIP]
 > Il est possible de modifier l'apparence des données Exif en modifiant chaque zone.\
 En passant le curseur de la souris sur les ***barres grises***, vous avez la possibilité de cliquer/déplacer afin de modifier les dimensions de chaque zone.\
-Modifier les dimensions de la fenêtre, notament la hauteur, permet également d'ajuster le rendu final de l'Exif.
+Modifier les dimensions de la fenêtre, notamment la hauteur, permet également d'ajuster le rendu final de l'Exif.
 
 <p align="right"><a href="#sommaire">Retour au sommaire</a></p>
 
@@ -272,13 +272,13 @@ L'affichage de cet onglet est divisé en quatre parties :
     - ***Constellations***\
     Cet élément contient la liste des constellations de tous les objets du catalogue.
     - ***Type d'objets célestes***\
-    Cet élément contient la liste des type d'objets célestes de tous les objets du catalogue.
-- Une [zone de recherche](#zone-de-filtre-des-objets-célestes-affichés) permettant de filtrer la liste des objets célestes.
+    Cet élément contient la liste des types d'objets célestes de tous les objets du catalogue.
+- Une [zone de recherche](#zone-de-filtres-des-objets-célestes-affichés) permettant de filtrer la liste des objets célestes.
 - Une liste principale contenant la liste des objets célestes en fonction de l'élément sélectionné dans la liste arborescente et du filtre appliqué.
 - Un panneau permettant d'afficher le détail de l'objet céleste sélectionné.
 
 > [!TIP]
-> La liste des objets célestes peut être triée par ordre croissant ou décroissant en cliquant sur une en-tête de colonne de la liste.
+> La liste des objets célestes peut être triée par ordre croissant ou décroissant en cliquant sur un en-tête de colonne de la liste.
 
 <p align="right"><a href="#sommaire">Retour au sommaire</a></p>
 
@@ -318,16 +318,16 @@ Informations affichées :
 
 
 Actions possibles :
-- En cliquant sur la miniature de la constellation, celà permet l'affichage de l'image dans une nouvelle fenêtre.
-- En cliquant sur la miniature de la session sélectionnée, celà permet l'affichage de l'image dans une nouvelle fenêtre.
-- L'icone ![Loupe](images/Bouton_Loupe.png) est un raccourci permettant d'afficher la session d'observations concernée directement dans l'onglet ***[Sessions d'observations](#onglet-sessions-dobservations)***.
-- L'icone ![AstroTargetSelector](images/Bouton_ATS.png) permet de visualiser l'objet céleste dans le logiciel ***AstroTargetSelector***.\
-Lors du clic sur ce bouton, le logiciel ***AstroTargetSelecor*** s'ouvre avec l'objet céleste présélectionné.\
+- En cliquant sur la miniature de la constellation, cela permet l'affichage de l'image dans une nouvelle fenêtre.
+- En cliquant sur la miniature de la session sélectionnée, cela permet l'affichage de l'image dans une nouvelle fenêtre.
+- L'icône ![Loupe](images/Bouton_Loupe.png) est un raccourci permettant d'afficher la session d'observations concernée directement dans l'onglet ***[Sessions d'observations](#onglet-sessions-dobservations)***.
+- L'icône ![AstroTargetSelector](images/Bouton_ATS.png) permet de visualiser l'objet céleste dans le logiciel ***AstroTargetSelector***.\
+Lors du clic sur ce bouton, le logiciel ***AstroTargetSelector*** s'ouvre avec l'objet céleste présélectionné.\
 Si le logiciel ***AstroTargetSelector*** n'est pas installé sur l'ordinateur, ce bouton est grisé.
-- L'icone ![Cartes du Ciel](images/Bouton_CDC.png) permet de visualiser l'objet céleste dans le logiciel ***Cartes du Ciel***.\
+- L'icône ![Cartes du Ciel](images/Bouton_CDC.png) permet de visualiser l'objet céleste dans le logiciel ***Cartes du Ciel***.\
 Lors du clic sur ce bouton, le logiciel ***Cartes du Ciel*** s'ouvre avec l'objet céleste présélectionné.\
 Si le logiciel ***Cartes du Ciel*** n'est pas installé sur l'ordinateur, ce bouton est grisé.
-- L'icone ![Stellarium](images/Bouton_Stellarium.png) permet de visualiser l'objet céleste dans le logiciel ***Stellarium***.\
+- L'icône ![Stellarium](images/Bouton_Stellarium.png) permet de visualiser l'objet céleste dans le logiciel ***Stellarium***.\
 Lors du clic sur ce bouton, le logiciel ***Stellarium*** s'ouvre avec l'objet céleste présélectionné.\
 Si le logiciel ***Stellarium*** n'est pas installé sur l'ordinateur, ce bouton est grisé.
 
@@ -338,18 +338,18 @@ Si le logiciel ***Stellarium*** n'est pas installé sur l'ordinateur, ce bouton 
 
 Cet onglet permet l'affichage des sites d'observations et des équipements.\
 L'affichage de cet onglet est divisé en deux parties :
-- Une liste des sites d'observations et  équipements comprenant huit rubriques :
+- Une liste des sites d'observations et équipements comprenant huit rubriques :
     - ***Sites*** : liste des sites d'observations.
-    - ***Setup*** : liste des setup.
+    - ***Setup*** : liste des setups.
     - ***Lunettes et télescopes*** : liste des lunettes et télescopes.
     - ***Montures*** : liste des montures.
-    - ***Caméras*** : liste des caméras et appareil photos.
+    - ***Caméras*** : liste des caméras et appareils photo.
     - ***Filtres*** : liste des filtres.
-    - ***Divers*** : liste de matériels divers.
-    - ***Logiciels*** : liste des logiciels nécessaire au traitement, à la gestion et à l'aquisition d'image.\
-    Cette rubriques comprend trois catégories de logiciel :
-        - ***Aquisition***.
-        - ***Pré-Traitement***.
+    - ***Divers*** : liste de matériel divers.
+    - ***Logiciels*** : liste des logiciels nécessaires au traitement, à la gestion et à l'acquisition d'images.\
+    Cette rubrique comprend quatre catégories de logiciels :
+        - ***Acquisition***.
+        - ***Pré-traitement***.
         - ***Traitement***.
         - ***Divers***.
 - Un panneau permettant d'afficher les propriétés de l'élément sélectionné.
@@ -370,7 +370,7 @@ Ce panneau permet l'affichage des propriétés du site sélectionné, et permet 
 
 Informations affichées :
 - Le Nom.
-- Les coordonées GPS.
+- Les coordonnées GPS.
 - L'indice de Bortle.
 - La miniature de l'image du site.
 
@@ -396,10 +396,10 @@ Un clic sur la miniature du setup permet l'affichage de l'image dans une nouvell
 
 <p align="right"><a href="#sommaire">Retour au sommaire</a></p>
 
-###### Propriétés d'une lunette / téléscope
-![Propriétés d'une lunette / téléscope](images/Propriétés_Telescope.png)
+###### Propriétés d'une lunette / télescope
+![Propriétés d'une lunette / télescope](images/Propriétés_Telescope.png)
 
-Ce panneau permet l'affichage des propriétés de la lunette ou du téléscope sélectionné.
+Ce panneau permet l'affichage des propriétés de la lunette ou du télescope sélectionné.
 
 Informations affichées :
 - Le Nom.
@@ -497,7 +497,7 @@ Lorsque l'onglet [Catalogue des objets célestes](#onglet-catalogue-des-objets-c
 Lorsque l'onglet [Equipements et sites d'observations](#onglet-equipements-et-sites-dobservations) est affiché, la barre de statut affiche :
 - Le nombre de sites d'observations enregistrés.
 - Le nombre de setups enregistrés.
-- Le nombre d'équipements enregistrés
+- Le nombre d'équipements enregistrés.
 
 <p align="right"><a href="#sommaire">Retour au sommaire</a></p>
 
@@ -544,7 +544,7 @@ Le bouton ![Sélection de l'objet céleste](images/NewSession_Edit.png) permet d
 ![Informations de l'objet céleste](images/NewSession_InformationObjet.png)\
 Ces informations sont :
     - Type de l'objet.
-    - Nom et abbréviation de la constellation.
+    - Nom et abréviation de la constellation.
     - Dénominations supplémentaires de l'objet.
 
 
@@ -594,7 +594,7 @@ La zone ci-dessous permet de sélectionner le répertoire contenant les images d
 Le bouton ![Sélection du répertoire contenant les images de la session](images/NewSession_Edit.png) permet de sélectionner le répertoire contenant les images de la session.
 
 > [!TIP]
-> A titre personnel, je stock les images de mes session Astro sur un disque dur externe, dans un répertoire nommé `AstroPhotos`.\
+> À titre personnel, je stocke les images de mes sessions Astro sur un disque dur externe, dans un répertoire nommé `AstroPhotos`.\
 Voici le pattern utilisé pour le stockage de mes images :\
 `D:\AstroPhotos\[Nom de l'objet]\[Date de la session]\`
 
@@ -620,7 +620,7 @@ La zone ci-dessous permet de sélectionner le [Setup](#propriétés-dun-setup).
 
 > [!TIP]
 > La sélection d'un Setup est **optionnelle**.\
-> Vous pouvez sélectionner les équipements manuellement, voir faire un mix d'un Setup plus divers équipements additionnels pour la session.
+> Vous pouvez sélectionner les équipements manuellement, voire faire un mix d'un Setup plus divers équipements additionnels pour la session.
 
 <p align="right"><a href="#sommaire">Retour au sommaire</a></p>
 
@@ -634,7 +634,7 @@ La zone ci-dessous permet d'ajouter des équipements additionnels à votre sessi
 > Les équipements faisant partie du Setup actuellement sélectionné sont retirés de la liste, ainsi que les équipements additionnels déjà sélectionnés.
 
 > [!NOTE]
-> Pour ajouter un élement de la liste des équipements supplémentaires à la liste des équipements de la session, sélectionnez l'équipement puis cliquez sur la flèche verte (sens vers la droite), ou double-cliquer sur l'équipement.
+> Pour ajouter un élément de la liste des équipements supplémentaires à la liste des équipements de la session, sélectionnez l'équipement puis cliquez sur la flèche verte (sens vers la droite), ou double-cliquez sur l'équipement.
 
 > [!TIP]
 > Si un nouvel équipement ne figure pas encore dans la liste des équipements, vous pouvez créer un nouvel équipement en cliquant sur le bouton ![Nouvel équipement](images/Session_Equipements_new_equipement.png).\
@@ -649,7 +649,7 @@ La zone ci-dessous liste les équipements actuellement sélectionnés pour votre
 ![Liste des équipements de la session](images/Session_Equipements_Session.png)
 
 > [!NOTE]
-> Pour retirer un élement de la liste des équipements de la session, sélectionnez l'équipement puis cliquez sur la flèche rouge (sens vers la gauche), ou double-cliquer sur l'équiepement.
+> Pour retirer un élément de la liste des équipements de la session, sélectionnez l'équipement puis cliquez sur la flèche rouge (sens vers la gauche), ou double-cliquez sur l'équipement.
 
 > [!TIP]
 > Les équipements faisant partie du Setup sélectionné sont matérialisés par un fond gris.
@@ -660,8 +660,8 @@ La zone ci-dessous liste les équipements actuellement sélectionnés pour votre
 > [!NOTE]
 > Vous pouvez donner un nom différent à l'équipement sélectionné (hormis les équipements faisant partie du Setup sélectionné).\
 > Exemple : ***Guidage : SW Evoguide ED50***.\
-> Pour celà, sélectionner l'équipement souhaité, puis cliquez sur le bouton ![Nouveau nom d'équipement](images/Session_Equipements_NewName.png).\
-> Pour redonner le nom par défaut, supprimer le texte et laissez la zone vide.
+> Pour cela, sélectionnez l'équipement souhaité, puis cliquez sur le bouton ![Nouveau nom d'équipement](images/Session_Equipements_NewName.png).\
+> Pour redonner le nom par défaut, supprimez le texte et laissez la zone vide.
 
 > [!NOTE]
 > Lorsque le nom par défaut est utilisé pour un équipement (hormis les équipements faisant partie du Setup sélectionné), il est écrit entre [ ].
@@ -690,14 +690,14 @@ La zone ci-dessous liste les logiciels actuellement sélectionnés pour votre se
 
 > [!TIP]
 > Les logiciels sont divisés en quatre rubriques :
-> - Aqcquisition.
+> - Acquisition.
 > - Pré-traitement.
 > - Traitement.
 > - Divers.
 
 > [!NOTE]
 > Pour passer un logiciel d'une liste à l'autre, sélectionnez le logiciel souhaité puis cliquez sur la flèche correspondante.\
-> Vous pouvez également double-cliquer sur un logiciel pour le faire passer d'une liste à l'autre.
+> Vous pouvez également double-cliquez sur un logiciel pour le faire passer d'une liste à l'autre.
 
 > [!TIP]
 > Si un nouveau logiciel ne figure pas encore dans la liste, vous pouvez en créer un en cliquant sur le bouton ![ajouter un nouveau logiciel](images/Session_Logiciels_new.png).\
@@ -724,7 +724,7 @@ L'ajout ou la modification d'une observation s'effectue grâce à la boîte de d
 
 ![Edition d'une observation](images/Observations.png)
 
-Cette boîte de dialogue permet la saisie de toute les informations relatives à l'observation.
+Cette boîte de dialogue permet la saisie de toutes les informations relatives à l'observation.
 
 > [!TIP]
 > Les informations concernant la Lune sont renseignées automatiquement en fonction de la date et l'heure de l'observation.\
@@ -746,7 +746,7 @@ Afin de faciliter la saisie, il est possible d'importer les informations de l'ob
 > [!TIP]
 > Personnellement, je sélectionne le fichier ***[MaCible]_stacked.fit***, résultat de l'empilement via le logiciel ***Siril***.
 
-- Cliquez sur le bouton ***Import*** afin de renseigner l'observation avec les informations contenues dans les en-tête du fichier Fit.
+- Cliquez sur le bouton ***Import*** afin de renseigner l'observation avec les informations contenues dans les en-têtes du fichier Fit.
 
 <p align="right"><a href="#sommaire">Retour au sommaire</a></p>
 
@@ -767,7 +767,7 @@ Pour ajouter, modifier ou supprimer un objet céleste, vous pouvez le faire :
 
 - Depuis le menu contextuel :\
 ![Menu contextuel](images/Objet_ContextMenu.png)\
-Dans l'[onglet Catalogue des objets célestes](#onglet-catalogue-des-objets-célestes), en faisant un clic avec le bouton droit de la souris sur la liste des objets céleste, le menu contextuel apparait.\
+Dans l'[onglet Catalogue des objets célestes](#onglet-catalogue-des-objets-célestes), en faisant un clic avec le bouton droit de la souris sur la liste des objets célestes, le menu contextuel apparait.\
 Ce menu contextuel contient les éléments suivants :
     - ***Nouvel objet céleste*** : permet d'ouvrir la boîte de dialogue de création d'un nouvel objet.
     - ***Modifier*** : permet de modifier l'objet sélectionné.\
@@ -847,20 +847,20 @@ Ce menu contextuel contient les éléments suivants :
 La boîte de dialogue d'ajout ou d'édition de setup permet de positionner un nom au setup, et de sélectionner les équipements faisant partie du setup.
 
 > [!NOTE]
-> - Pour ajouter un élement de la liste des équipements disponibles à la liste des équipements du setup, sélectionnez l'équipement puis cliquez sur la flèche verte (sens vers la droite), ou double-cliquer sur l'équipement.
-> - Pour retirer un élement de la liste des équipements du setup, sélectionnez l'équipement puis cliquez sur la flèche rouge (sens vers la gauche), ou double-cliquer sur l'équiepement.
+> - Pour ajouter un élément de la liste des équipements disponibles à la liste des équipements du setup, sélectionnez l'équipement puis cliquez sur la flèche verte (sens vers la droite), ou double-cliquez sur l'équipement.
+> - Pour retirer un élément de la liste des équipements du setup, sélectionnez l'équipement puis cliquez sur la flèche rouge (sens vers la gauche), ou double-cliquez sur l'équipement.
 
 > [!TIP]
 > Vous pouvez donner un nom différent à l'équipement ajouté au setup.\
 > Exemple : ***Guidage : SW Evoguide ED50***.\
-> Pour celà, sélectionner l'équipement souhaité, puis cliquez sur le bouton ![Nouveau nom d'équipement](images/Session_Equipements_NewName.png).\
-> - Pour redonner le nom par défaut, supprimer le texte et laissez la zone vide.
+> Pour cela, sélectionnez l'équipement souhaité, puis cliquez sur le bouton ![Nouveau nom d'équipement](images/Session_Equipements_NewName.png).\
+> - Pour redonner le nom par défaut, supprimez le texte et laissez la zone vide.
 > - Lorsque le nom par défaut est utilisé pour un équipement (hormis les équipements faisant partie du Setup sélectionné), il est écrit entre [ ].
 
 <p align="right"><a href="#sommaire">Retour au sommaire</a></p>
 
 ### Equipement
-![Edition d'un équipements](images/Equipement_New.png)
+![Edition d'un équipement](images/Equipement_New.png)
 
 <p align="right"><a href="#sommaire">Retour au sommaire</a></p>
 
@@ -868,7 +868,7 @@ La boîte de dialogue d'ajout ou d'édition de setup permet de positionner un no
 
 Pour ajouter, modifier ou supprimer un équipement, vous pouvez le faire :
 - Depuis la barre d'outils :
-    - Le bouton ![Nouvel équipements](images/ToolBar_NewEquipement.png) permet d'ouvrir la boîte de dialogue de création d'un nouvel équipement.
+    - Le bouton ![Nouvel équipement](images/ToolBar_NewEquipement.png) permet d'ouvrir la boîte de dialogue de création d'un nouvel équipement.
     - Le bouton ![Modifier](images/ToolBar_EditSession.png) permet de modifier le site, le setup, l'équipement ou le logiciel sélectionné.\
     Si aucun élément n'est sélectionné, ce bouton est grisé.
     - Le bouton ![Supprimer](images/ToolBar_Delete.png) permet de supprimer le site, le setup, l'équipement ou le logiciel sélectionné.\
@@ -896,7 +896,7 @@ La boîte de dialogue d'ajout ou d'édition d'équipement permet de sélectionne
 > Il existe cinq types d'équipements :
 >
 > ![Types d'équipements](images/Equipement_Type.png)
-> - Lunettes et téléscopes
+> - Lunettes et télescopes
 > - Montures
 > - Caméras
 > - Filtres
@@ -967,7 +967,7 @@ La boîte de dialogue d'ajout ou d'édition de logiciel permet de sélectionner 
 | 01/02/2023 | 0.4.1.0 | <ul><li>Observations : Ajout du nouveau champ ‘Offset/Brightness’ aux observations.</li><li>Modification de la base de données : Modification de la structure de la table Observations.</li></ul> |
 | 01/02/2023 | 0.4.0.3 | <ul><li>FIT Header reader : Correction de la lecture des champs de type COMMENT dans le Header Data Unit.</li><li>Boîte de dialogue Observations : Modifications cosmétiques.</li></ul> |
 | 31/01/2023 | 0.4.0.2 | <ul><li>FIT Header reader : Lors de la création/édition d’une observation, un lecteur d’en-tête de fichier fit vous permet de visualiser des données HDU d’une image fit/fits.</li></ul> |
-| 31/01/2023 | 0.4.0.1 | <ul><li>Image constellation : Lors de la création/édition d’une session, copie automatique de l’image de la constellation dans le répertoire des images de la session.</li><li>Communication avec AstroTargetSelector : Envoi des dénominations de l’objet.</li><li>Ouverture dans Stellarium : Mise en avant plan de Stellarium lors de l’affichage d’un objet.</li><li>Ouverture dans Carte du Ciel : Mise en avant plan de Carte du Ciel lors de l’affichage d’un objet.</li><li>Affichage d’une session : Affichage du RA/DEC de l’objet céleste de la session.</li></ul> |
+| 31/01/2023 | 0.4.0.1 | <ul><li>Image constellation : Lors de la création/édition d’une session, copie automatique de l’image de la constellation dans le répertoire des images de la session.</li><li>Communication avec AstroTargetSelector : Envoi des dénominations de l’objet.</li><li>Ouverture dans Stellarium : Mise en avant-plan de Stellarium lors de l’affichage d’un objet.</li><li>Ouverture dans Cartes du Ciel : Mise en avant-plan de Cartes du Ciel lors de l’affichage d’un objet.</li><li>Affichage d’une session : Affichage du RA/DEC de l’objet céleste de la session.</li></ul> |
 | 28/01/2023 | 0.3.0.1 | <ul><li>Communication avec AstroTargetSelector : Possibilité d’afficher un objet du catalogue afin de visualiser l’évolution de la hauteur dans le ciel et le temps de pose max.</li><li>Modification de la base de données : Mise à jour de la table des objets célestes.</li></ul> |
 | 01/01/2023 | 0.1.0.1 | Version initiale. |
 
