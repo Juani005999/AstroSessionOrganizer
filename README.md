@@ -51,6 +51,18 @@
         - [Saisie des observations de la session](#saisie-des-observations-de-la-session)
             - [Ajout/modification d'une observation](#ajoutmodification-dune-observation)
             - [Importation des informations d'un fichier Fit](#importation-des-informations-dun-fichier-fit)
+    - [Objet céleste](#objet-céleste)
+        - [Ajout, modification, suppression d'un objet céleste](#ajout-modification-suppression-dune-session-dobservations)
+    - [Site d'observations](#site-dobservations)
+        - [Ajout, modification, suppression d'un site d'observations](#ajout-modification-suppression-dun-site-dobservations)
+    - [Setup](#setup)
+        - [Ajout, modification, suppression d'un setup](#ajout-modification-suppression-dun-setup)
+        - [Edition d'un setup](#edition-dun-setup)
+    - [Equipement](#equipement)
+        - [Ajout, modification, suppression d'un équipement](#ajout-modification-suppression-dun-équipement)
+        - [Edition d'un équipement](#edition-dun-équipement)
+    - [Logiciel](#logiciel)
+        - [Ajout, modification, suppression d'un logiciel](#ajout-modification-suppression-dun-logiciel)
 
 ## Affichage
 **ASO** est composé d'un menu, d'une barre d'outil, de trois onglets de visualisations, et d'une barre de statut.
@@ -643,6 +655,9 @@ La zone ci-dessous liste les équipements actuellement sélectionnés pour votre
 > Pour celà, sélectionner l'équipement souhaité, puis cliquez sur le bouton ![Nouveau nom d'équipement](images/Session_Equipements_NewName.png).\
 > Pour redonner le nom par défaut, supprimer le texte et laissez la zone vide.
 
+> [!NOTE]
+> Lorsque le nom par défaut est utilisé pour un équipement (hormis les équipements faisant partie du Setup sélectionné), il est écrit entre [ ].
+
 <p align="right"><a href="#sommaire">Retour au sommaire</a></p>
 
 #### Saisie des logiciels
@@ -724,5 +739,230 @@ Afin de faciliter la saisie, il est possible d'importer les informations de l'ob
 > Personnellement, je sélectionne le fichier ***[MaCible]_stacked.fit***, résultat de l'empilement via le logiciel ***Siril***.
 
 - Cliquez sur le bouton ***Import*** afin de renseigner l'observation avec les informations contenues dans les en-tête du fichier Fit.
+
+<p align="right"><a href="#sommaire">Retour au sommaire</a></p>
+
+### Objet céleste
+![Edition d'un objet céleste](images/Objet_New.png)
+
+<p align="right"><a href="#sommaire">Retour au sommaire</a></p>
+
+#### Ajout, modification, suppression d'un objet céleste
+
+Pour ajouter, modifier ou supprimer un objet céleste, vous pouvez le faire :
+- Depuis la barre d'outils :
+    - Le bouton ![Nouvel Objet](images/Toolbar_NewObjet.png) permet d'ouvrir la boîte de dialogue de création d'un nouvel objet céleste.
+    - Le bouton ![Modifier](images/ToolBar_EditSession.png) permet de modifier l'objet sélectionné.\
+    Si aucun objet n'est sélectionné, ce bouton est grisé.
+    - Le bouton ![Supprimer](images/ToolBar_Delete.png) permet de supprimer l'objet sélectionné.\
+    Si aucun objet n'est sélectionné, ce bouton est grisé.
+
+- Depuis le menu contextuel :\
+![Menu contextuel](images/Objet_ContextMenu.png)\
+En faisant un clic avec le bouton droit de la souris sur la liste des objets céleste, le menu contextuel apparait.\
+Ce menu contextuel contient les éléments suivants :
+    - ***Nouvel objet céleste*** : permet d'ouvrir la boîte de dialogue de création d'un nouvel objet.
+    - ***Modifier*** : permet de modifier l'objet sélectionné.\
+    Si aucun objet n'est sélectionné, ce menu est grisé.
+    - ***Supprimer*** : permet de supprimer l'objet sélectionné.\
+    Si aucun objet n'est sélectionné, ce menu est grisé.
+
+> [!IMPORTANT]
+> Il n'est pas possible de modifier ou de supprimer un objet céleste du catalogue d'origine.
+> Seuls les objets ajoutés manuellement sont modifiables.
+
+<p align="right"><a href="#sommaire">Retour au sommaire</a></p>
+
+### Site d'observations
+![Edition d'un site d'observations](images/Site_New.png)
+
+<p align="right"><a href="#sommaire">Retour au sommaire</a></p>
+
+#### Ajout, modification, suppression d'un site d'observations
+
+Pour ajouter, modifier ou supprimer un site d'observations, vous pouvez le faire :
+- Depuis la barre d'outils :
+    - Le bouton ![Nouveau Site](images/Toolbar_NewSite.png) permet d'ouvrir la boîte de dialogue de création d'un nouveau site d'observations.
+    - Le bouton ![Modifier](images/ToolBar_EditSession.png) permet de modifier le site, le setup, l'équipement ou le logiciel sélectionné.\
+    Si aucun élément n'est sélectionné, ce bouton est grisé.
+    - Le bouton ![Supprimer](images/ToolBar_Delete.png) permet de supprimer le site, le setup, l'équipement ou le logiciel sélectionné.\
+    Si aucun élément n'est sélectionné, ce bouton est grisé.
+
+- Depuis le menu contextuel :\
+![Menu contextuel](images/Site_ContextMenu.png)\
+En faisant un clic avec le bouton droit de la souris sur la liste des équipements et sites d'observations, le menu contextuel apparait.\
+Ce menu contextuel contient les éléments suivants :
+    - ***Nouveau site d'observations*** : permet d'ouvrir la boîte de dialogue de création d'un site d'observations.
+    - ***Modifier*** : permet de modifier le site sélectionné.\
+    Si aucun élément n'est sélectionné, ce menu est grisé.
+    - ***Supprimer*** : permet de supprimer le site sélectionné.\
+    Si aucun élément n'est sélectionné, ce menu est grisé.
+
+<p align="right"><a href="#sommaire">Retour au sommaire</a></p>
+
+### Setup
+![Edition d'un setup](images/Setup_New.png)
+
+La création de setup permet de regrouper divers équipements afin de faciliter la saisie de sessions d'abservations effectuées avec les mêmes équipements.
+
+> [!NOTE]
+> La création de setup est optionnelle.
+
+<p align="right"><a href="#sommaire">Retour au sommaire</a></p>
+
+#### Ajout, modification, suppression d'un setup
+
+Pour ajouter, modifier ou supprimer un setup, vous pouvez le faire :
+- Depuis la barre d'outils :
+    - Le bouton ![Nouveau Setup](images/ToolBar_NewSetup.png) permet d'ouvrir la boîte de dialogue de création d'un nouveau setup.
+    - Le bouton ![Modifier](images/ToolBar_EditSession.png) permet de modifier le site, le setup, l'équipement ou le logiciel sélectionné.\
+    Si aucun élément n'est sélectionné, ce bouton est grisé.
+    - Le bouton ![Supprimer](images/ToolBar_Delete.png) permet de supprimer le site, le setup, l'équipement ou le logiciel sélectionné.\
+    Si aucun élément n'est sélectionné, ce bouton est grisé.
+
+- Depuis le menu contextuel :\
+![Menu contextuel](images/Setup_ContextMenu.png)\
+En faisant un clic avec le bouton droit de la souris sur la liste des équipements et sites d'observations, le menu contextuel apparait.\
+Ce menu contextuel contient les éléments suivants :
+    - ***Nouveau setup*** : permet d'ouvrir la boîte de dialogue de création d'un setup.
+    - ***Modifier*** : permet de modifier le setup sélectionné.\
+    Si aucun élément n'est sélectionné, ce menu est grisé.
+    - ***Supprimer*** : permet de supprimer le setup sélectionné.\
+    Si aucun élément n'est sélectionné, ce menu est grisé.
+
+<p align="right"><a href="#sommaire">Retour au sommaire</a></p>
+
+#### Edition d'un setup
+
+![Edition d'un setup](images/Setup_New.png)
+
+La boîte de dialogue d'ajout ou d'édition de setup permet de positionner un nom au setup, et de sélectionner les équipements faisant partie du setup.
+
+> [!NOTE]
+> Pour ajouter un élement de la liste des équipements disponibles à la liste des équipements du setup, sélectionnez l'équipement puis cliquez sur la flèche verte (sens vers la droite), ou double-cliquer sur l'équipement.
+
+> [!NOTE]
+> Pour retirer un élement de la liste des équipements du setup, sélectionnez l'équipement puis cliquez sur la flèche rouge (sens vers la gauche), ou double-cliquer sur l'équiepement.
+
+> [!NOTE]
+> Vous pouvez donner un nom différent à l'équipement ajouté au setup.\
+> Exemple : ***Guidage : SW Evoguide ED50***.\
+> Pour celà, sélectionner l'équipement souhaité, puis cliquez sur le bouton ![Nouveau nom d'équipement](images/Session_Equipements_NewName.png).\
+> Pour redonner le nom par défaut, supprimer le texte et laissez la zone vide.
+
+> [!NOTE]
+> Lorsque le nom par défaut est utilisé pour un équipement (hormis les équipements faisant partie du Setup sélectionné), il est écrit entre [ ].
+
+<p align="right"><a href="#sommaire">Retour au sommaire</a></p>
+
+### Equipement
+![Edition d'un équipements](images/Equipement_New.png)
+
+<p align="right"><a href="#sommaire">Retour au sommaire</a></p>
+
+#### Ajout, modification, suppression d'un équipement
+
+Pour ajouter, modifier ou supprimer un équipement, vous pouvez le faire :
+- Depuis la barre d'outils :
+    - Le bouton ![Nouvel équipements](images/ToolBar_NewEquipement.png) permet d'ouvrir la boîte de dialogue de création d'un nouvel équipement.
+    - Le bouton ![Modifier](images/ToolBar_EditSession.png) permet de modifier le site, le setup, l'équipement ou le logiciel sélectionné.\
+    Si aucun élément n'est sélectionné, ce bouton est grisé.
+    - Le bouton ![Supprimer](images/ToolBar_Delete.png) permet de supprimer le site, le setup, l'équipement ou le logiciel sélectionné.\
+    Si aucun élément n'est sélectionné, ce bouton est grisé.
+
+- Depuis le menu contextuel :\
+![Menu contextuel](images/Equipement_ContextMenu.png)\
+En faisant un clic avec le bouton droit de la souris sur la liste des équipements et sites d'observations, le menu contextuel apparait.\
+Ce menu contextuel contient les éléments suivants :
+    - ***Nouvel équipement*** : permet d'ouvrir la boîte de dialogue de création d'un équipement.
+    - ***Modifier*** : permet de modifier l'équipement sélectionné.\
+    Si aucun élément n'est sélectionné, ce menu est grisé.
+    - ***Supprimer*** : permet de supprimer l'équipement sélectionné.\
+    Si aucun élément n'est sélectionné, ce menu est grisé.
+
+<p align="right"><a href="#sommaire">Retour au sommaire</a></p>
+
+#### Edition d'un équipement
+
+![Edition d'un setup](images/Equipement_New.png)
+
+La boîte de dialogue d'ajout ou d'édition d'équipement permet de sélectionner un type d'équipement, et de lui donner un nom.
+
+> [!NOTE]
+> Il existe cinq types d'équipements :
+> - Lunettes et téléscopes
+> - Montures
+> - Caméras
+> - Filtres
+> - Divers\
+> ![Types d'équipements](images/Equipement_Type.png)
+
+<p align="right"><a href="#sommaire">Retour au sommaire</a></p>
+
+### Logiciel
+![Edition d'un logiciel](images/Logiciel_New.png)
+
+<p align="right"><a href="#sommaire">Retour au sommaire</a></p>
+
+#### Ajout, modification, suppression d'un logiciel
+
+Pour ajouter, modifier ou supprimer un logiciel, vous pouvez le faire :
+- Depuis la barre d'outils :
+    - Le bouton ![Nouveau logiciel](images/ToolBar_NewLogiciel.png) permet d'ouvrir la boîte de dialogue de création d'un nouveau logiciel.
+    - Le bouton ![Modifier](images/ToolBar_EditSession.png) permet de modifier le site, le setup, l'équipement ou le logiciel sélectionné.\
+    Si aucun élément n'est sélectionné, ce bouton est grisé.
+    - Le bouton ![Supprimer](images/ToolBar_Delete.png) permet de supprimer le site, le setup, l'équipement ou le logiciel sélectionné.\
+    Si aucun élément n'est sélectionné, ce bouton est grisé.
+
+- Depuis le menu contextuel :\
+![Menu contextuel](images/Logiciel_ContextMenu.png)\
+En faisant un clic avec le bouton droit de la souris sur la liste des équipements et sites d'observations, le menu contextuel apparait.\
+Ce menu contextuel contient les éléments suivants :
+    - ***Nouveau logiciel*** : permet d'ouvrir la boîte de dialogue de création d'un logiciel.
+    - ***Modifier*** : permet de modifier le logiciel sélectionné.\
+    Si aucun élément n'est sélectionné, ce menu est grisé.
+    - ***Supprimer*** : permet de supprimer le logiciel sélectionné.\
+    Si aucun élément n'est sélectionné, ce menu est grisé.
+
+<p align="right"><a href="#sommaire">Retour au sommaire</a></p>
+
+#### Edition d'un équipement
+
+![Edition d'un setup](images/Logiciel_New.png)
+
+La boîte de dialogue d'ajout ou d'édition de logiciel permet de sélectionner un type de logiciel, et de lui donner un nom.
+
+> [!NOTE]
+> Il existe quatre types de logiciel :
+> - Acquisition
+> - Pré-traitement
+> - Traitement
+> - Divers\
+> ![Types de logiciel](images/Logiciel_Type.png)
+
+<p align="right"><a href="#sommaire">Retour au sommaire</a></p>
+
+## Révisions
+
+| Date | Version | Commentaires |
+| --- | --- | --- |
+| 20/09/2026 | 0.9.0.2 | <ul><li>Correction du bug sur le catalogue Caldwell manquant. Merci à Eric Beurnaux :)</li></ul> |
+| 16/08/2026 | 0.8.2.1 | <ul><li>Exifs : Correction dans l’affichage des colonnes du tableau des observations.</li></ul> |
+| 14/05/2023 | 0.8.1.1 | <ul><li>Données météo : Ajout de nouveaux champs pour les observations permettant l’archivage des données de votre station météo (OpenWeather, ROM, ...). Température ambiante, taux d’humidité, pression atmosphérique, point de rosée, FWHM étoiles, qualité du ciel (SQM), température du ciel, brillance du ciel.</li></ul> |
+| 19/03/2023 | 0.7.1.1 | <ul><li>Images au format webp : Prise en charge des images au format webp.</li></ul> |
+| 05/03/2023 | 0.5.6.2 | <ul><li>Sauvegarde de la base : Remplacement de la boîte de message de succès par une notification icône.</li></ul> |
+| 16/02/2023 | 0.5.5.2 | <ul><li>Amélioration des Exifs : Sauvegarde des paramètres des Exifs. Bien vu Gaël Ajinn :)</li></ul> |
+| 14/02/2023 | 0.5.4.2 | <ul><li>Amélioration des Exifs : Suppression des informations de Lune pour les observations qui ne sont pas de type ‘brutes’.</li></ul> |
+| 14/02/2023 | 0.5.4.1 | <ul><li>Amélioration des Exifs : Possibilité d’ajouter l’image de l’objet céleste en grand au bas de l’Exif (Merci Gaël Ajinn).</li></ul> |
+| 11/02/2023 | 0.5.3.4 | <ul><li>Import des infos Fits : Après vérification et validation avec l’équipe SIRIL, lecture du champ DATE-OBS au format UTC (Coordinated Universal Time).</li></ul> |
+| 09/02/2023 | 0.5.3.2 | <ul><li>Création de session : Sélection automatique de la nouvelle session dans la liste lors de la création.</li><li>Dénominations : Affichage des dénominations de l’objet céleste dans les Exifs et dans le détail d’une session.</li></ul> |
+| 05/02/2023 | 0.5.3.1 | <ul><li>Import des infos Fits : Possibilité de charger dans une observation les données lues avec le Fits reader.</li></ul> |
+| 04/02/2023 | 0.5.2.1 | <ul><li>Observations : Actualisation automatique du champ ‘Lune’ en fonction de la date et du lieu de l’observation.</li></ul> |
+| 01/02/2023 | 0.4.1.0 | <ul><li>Observations : Ajout du nouveau champ ‘Offset/Brightness’ aux observations.</li><li>Modification de la base de données : Modification de la structure de la table Observations.</li></ul> |
+| 01/02/2023 | 0.4.0.3 | <ul><li>FIT Header reader : Correction de la lecture des champs de type COMMENT dans le Header Data Unit.</li><li>Boîte de dialogue Observations : Modifications cosmétiques.</li></ul> |
+| 31/01/2023 | 0.4.0.2 | <ul><li>FIT Header reader : Lors de la création/édition d’une observation, un lecteur d’en-tête de fichier fit vous permet de visualiser des données HDU d’une image fit/fits.</li></ul> |
+| 31/01/2023 | 0.4.0.1 | <ul><li>Image constellation : Lors de la création/édition d’une session, copie automatique de l’image de la constellation dans le répertoire des images de la session.</li><li>Communication avec AstroTargetSelector : Envoi des dénominations de l’objet.</li><li>Ouverture dans Stellarium : Mise en avant plan de Stellarium lors de l’affichage d’un objet.</li><li>Ouverture dans Carte du Ciel : Mise en avant plan de Carte du Ciel lors de l’affichage d’un objet.</li><li>Affichage d’une session : Affichage du RA/DEC de l’objet céleste de la session.</li></ul> |
+| 28/01/2023 | 0.3.0.1 | <ul><li>Communication avec AstroTargetSelector : Possibilité d’afficher un objet du catalogue afin de visualiser l’évolution de la hauteur dans le ciel et le temps de pose max.</li><li>Modification de la base de données : Mise à jour de la table des objets célestes.</li></ul> |
+| 01/01/2023 | 0.1.0.1 | Version initiale. |
 
 <p align="right"><a href="#sommaire">Retour au sommaire</a></p>
