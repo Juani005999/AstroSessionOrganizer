@@ -63,6 +63,8 @@
         - [Edition d'un équipement](#edition-dun-équipement)
     - [Logiciel](#logiciel)
         - [Ajout, modification, suppression d'un logiciel](#ajout-modification-suppression-dun-logiciel)
+        - [Edition d'un logiciel](#edition-dun-logiciel)
+- [Révisions](#révisions)
 
 ## Affichage
 **ASO** est composé d'un menu, d'une barre d'outil, de trois onglets de visualisations, et d'une barre de statut.
@@ -82,14 +84,14 @@ Le menu est constitué des éléments suivants :
 #### Menu 'Fichier'
 ![Menu Fichier](images/Menu_Fichier.png)
 
-Le menu 'Fichier' contient les éléments suivants :
-- Sauvegarder la base de données\
+Le menu '***Fichier***' contient les éléments suivants :
+- **Sauvegarder la base de données**\
 Cette action permet de sauvegarder la base de données de **ASO**.
 
 > [!WARNING]
-> La sauvegarde de la base de données **ne comprend pas** les images. La base de données contient les informations de sessions, des objets célestes, des équipements et sites d'observations.
+> La sauvegarde de la base de données **ne comprend pas** les images des sessions d'observations, hormis les images générées par ***ASO***. La base de données contient les informations de sessions, des objets célestes, des équipements et sites d'observations.
 
-- Quitter\
+- **Quitter**\
 Permet de quitter l'application **ASO**.
 
 <p align="right"><a href="#sommaire">Retour au sommaire</a></p>
@@ -97,8 +99,8 @@ Permet de quitter l'application **ASO**.
 #### Menu 'Outils'
 ![Menu Fichier](images/Menu_Outil.png)
 
-Le menu 'Fichier' contient l'élément suivant :
-- Options\
+Le menu '***Outils***' contient l'élément suivant :
+- **Options**\
 Cette action permet d'ouvrir la boîte de dialogue ***Options***.
 
 <p align="right"><a href="#sommaire">Retour au sommaire</a></p>
@@ -119,8 +121,8 @@ Les Options par défaut sont :
 #### Menu '?'
 ![Menu ?](images/Menu_APropos.png)
 
-Le menu '?' contient l'élément suivant :
-- A Propos\
+Le menu '***?***' contient l'élément suivant :
+- **A Propos**\
 Cette action permet d'ouvrir la boîte de dialogue ***A Propos***.
 
 <p align="right"><a href="#sommaire">Retour au sommaire</a></p>
@@ -129,7 +131,7 @@ Cette action permet d'ouvrir la boîte de dialogue ***A Propos***.
 ![Menu Fichier](images/BoiteDeDialogue_APropos.png)
 
 Cette boîte de dialogue permet d'afficher les informations à propos du logiciel ***AstroSessionOrganizer*** (***ASO***).\
-Il est également possible via le bouton présent d'ouvrir les fichiers de log de l'application.
+Il est également possible via le bouton présent d'ouvrir le fichier des logs de l'application.
 
 <p align="right"><a href="#sommaire">Retour au sommaire</a></p>
 
@@ -227,7 +229,7 @@ Si le logiciel ***Cartes du Ciel*** n'est pas installé sur l'ordinateur, ce bou
 Lors du clic sur ce bouton, le logiciel ***Stellarium*** s'ouvre avec l'objet de la session présélectionné.\
 Si le logiciel ***Stellarium*** n'est pas installé sur l'ordinateur, ce bouton est grisé.
 - L'icone ![Images](images/Bouton_Images.png) permet d'ouvrir le répertoire des images de la session.\
-Ce répertoire est défini dans les paramètres de la session (Cf. partie Saisie d'une session).
+Ce répertoire est défini dans les paramètres de la session (Cf. partie [Saisie d'une session](#session-dobservations)).
 - L'icone ![Exif](images/Bouton_Exif.png) permet d'ouvrir la boîte de dialogue permettant la création d'un Exif pour la session (Cf. partie [Boîte de dialogue Création d'un Exif de session](#boîte-de-dialogue-création-dun-exif)).
 
 <p align="right"><a href="#sommaire">Retour au sommaire</a></p>
@@ -293,7 +295,7 @@ La zone de recherche permettant de filtrer la liste des objets célestes compren
 ##### Panneau détail d'un objet céleste
 ![Détail d'un objet céleste](images/Panneau_DetailObjet.png)
 
-Lorsqu'un objet céleste est sélectionné dans la liste, le panneau de détail de l objet apparait.\
+Lorsqu'un objet céleste est sélectionné dans la liste, le panneau de détail de l'objet apparait.\
 Ce panneau permet l'affichage des différentes informations concernant l'objet céleste et des sessions d'observations associées, et la possibilité d'effectuer des actions supplémentaires.
 
 Informations affichées :
@@ -336,7 +338,7 @@ Si le logiciel ***Stellarium*** n'est pas installé sur l'ordinateur, ce bouton 
 
 Cet onglet permet l'affichage des sites d'observations et des équipements.\
 L'affichage de cet onglet est divisé en deux parties :
-- Une liste des sites d'observations et  équipements comprenant sept rubriques :
+- Une liste des sites d'observations et  équipements comprenant huit rubriques :
     - ***Sites*** : liste des sites d'observations.
     - ***Setup*** : liste des setup.
     - ***Lunettes et télescopes*** : liste des lunettes et télescopes.
@@ -504,6 +506,8 @@ Lorsque l'onglet [Equipements et sites d'observations](#onglet-equipements-et-si
 ### Session d'observations
 ![Edition d'une session d'observations](images/Session_New.png)
 
+Cette boîte de dialogue permet la saisie ou l'édition d'une session d'observations.
+
 <p align="right"><a href="#sommaire">Retour au sommaire</a></p>
 
 #### Ajout, modification, suppression d'une session d'observations
@@ -518,7 +522,7 @@ Pour ajouter, modifier ou supprimer une session d'observations, vous pouvez le f
 
 - Depuis le menu contextuel :\
 ![Menu contextuel](images/Session_ContextMenu_NewSession.png)\
-En faisant un clic avec le bouton droit de la souris sur la liste des sessions d'observations, le menu contextuel apparait.\
+Dans l'[onglet Sessions d'observations](#onglet-sessions-dobservations), en faisant un clic avec le bouton droit de la souris sur la liste des sessions d'observations, le menu contextuel apparait.\
 Ce menu contextuel contient les éléments suivants :
     - ***Nouvelle session d'observations*** : permet d'ouvrir la boîte de dialogue de création d'une nouvelle session.
     - ***Modifier*** : permet de modifier la session sélectionnée.\
@@ -555,8 +559,9 @@ Elle est composée de deux zones :
 - ***Résultat de la recherche*** : résultat de la recherche dans le catalogue complet correspondant à la saisie.
 
 > [!NOTE]
-> Le résultat de la recherche s'actualise lors de la saisie dans la zone de recherche.\
-Il est nécessaire de saisir au minimum trois caractères pour lancer la recherche.
+> - Le résultat de la recherche s'actualise lors de la saisie dans la zone de recherche.
+> - Il est nécessaire de saisir au minimum trois caractères pour lancer la recherche.
+> - La recherche s'effectue sur le nom et sur les dénominations.
 
 <p align="right"><a href="#sommaire">Retour au sommaire</a></p>
 
@@ -574,6 +579,9 @@ La zone ci-dessous permet de sélectionner le site d'observations de la session.
 ![Sélection du site d'observations](images/Session_Site.png)
 
 Le bouton ![Nouveau du site d'observations](images/Session_NewSite_button.png) permet d'ouvrir la boîte de dialogue de création d'un nouveau site d'observations.
+
+> [!NOTE]
+> Le nouveau site enregistré figurera désormais dans la liste de vos [sites d'observations](#onglet-equipements-et-sites-dobservations). 
 
 <p align="right"><a href="#sommaire">Retour au sommaire</a></p>
 
@@ -673,7 +681,7 @@ La zone ci-dessous liste les logiciels sélectionnés pour votre session d'obser
 
 ##### Ajout/suppression de logiciels à la session
 
-La zone ci-dessous liste les équipements actuellement sélectionnés pour votre session d'observations.
+La zone ci-dessous liste les logiciels actuellement sélectionnés pour votre session d'observations.
 
 ![Ajout/suppression de logiciels à la session](images/Session_Logiciels_Select.png)
 
@@ -723,7 +731,7 @@ Cette boîte de dialogue permet la saisie de toute les informations relatives à
 > Vous pouvez cependant modifier ces informations si vous le souhaitez.
 
 > [!NOTE]
-> Il est possible de renseigner différents type :
+> Il est possible de renseigner différents types d'observation :
 > - Brutes
 > - Darks
 > - Bias / Offset
@@ -759,7 +767,7 @@ Pour ajouter, modifier ou supprimer un objet céleste, vous pouvez le faire :
 
 - Depuis le menu contextuel :\
 ![Menu contextuel](images/Objet_ContextMenu.png)\
-En faisant un clic avec le bouton droit de la souris sur la liste des objets céleste, le menu contextuel apparait.\
+Dans l'[onglet Catalogue des objets célestes](#onglet-catalogue-des-objets-célestes), en faisant un clic avec le bouton droit de la souris sur la liste des objets céleste, le menu contextuel apparait.\
 Ce menu contextuel contient les éléments suivants :
     - ***Nouvel objet céleste*** : permet d'ouvrir la boîte de dialogue de création d'un nouvel objet.
     - ***Modifier*** : permet de modifier l'objet sélectionné.\
@@ -790,7 +798,7 @@ Pour ajouter, modifier ou supprimer un site d'observations, vous pouvez le faire
 
 - Depuis le menu contextuel :\
 ![Menu contextuel](images/Site_ContextMenu.png)\
-En faisant un clic avec le bouton droit de la souris sur la liste des équipements et sites d'observations, le menu contextuel apparait.\
+Dans l'[onglet Equipements et sites d'observations](#onglet-equipements-et-sites-dobservations), en faisant un clic avec le bouton droit de la souris sur la liste des équipements et sites d'observations, le menu contextuel apparait.\
 Ce menu contextuel contient les éléments suivants :
     - ***Nouveau site d'observations*** : permet d'ouvrir la boîte de dialogue de création d'un site d'observations.
     - ***Modifier*** : permet de modifier le site sélectionné.\
@@ -803,7 +811,7 @@ Ce menu contextuel contient les éléments suivants :
 ### Setup
 ![Edition d'un setup](images/Setup_New.png)
 
-La création de setup permet de regrouper divers équipements afin de faciliter la saisie de sessions d'abservations effectuées avec les mêmes équipements.
+La création de setup permet de regrouper divers équipements afin de faciliter la saisie de sessions d'observations effectuées avec les mêmes équipements.
 
 > [!NOTE]
 > La création de setup est optionnelle.
@@ -822,7 +830,7 @@ Pour ajouter, modifier ou supprimer un setup, vous pouvez le faire :
 
 - Depuis le menu contextuel :\
 ![Menu contextuel](images/Setup_ContextMenu.png)\
-En faisant un clic avec le bouton droit de la souris sur la liste des équipements et sites d'observations, le menu contextuel apparait.\
+Dans l'[onglet Equipements et sites d'observations](#onglet-equipements-et-sites-dobservations), en faisant un clic avec le bouton droit de la souris sur la liste des équipements et sites d'observations, le menu contextuel apparait.\
 Ce menu contextuel contient les éléments suivants :
     - ***Nouveau setup*** : permet d'ouvrir la boîte de dialogue de création d'un setup.
     - ***Modifier*** : permet de modifier le setup sélectionné.\
@@ -839,19 +847,15 @@ Ce menu contextuel contient les éléments suivants :
 La boîte de dialogue d'ajout ou d'édition de setup permet de positionner un nom au setup, et de sélectionner les équipements faisant partie du setup.
 
 > [!NOTE]
-> Pour ajouter un élement de la liste des équipements disponibles à la liste des équipements du setup, sélectionnez l'équipement puis cliquez sur la flèche verte (sens vers la droite), ou double-cliquer sur l'équipement.
+> - Pour ajouter un élement de la liste des équipements disponibles à la liste des équipements du setup, sélectionnez l'équipement puis cliquez sur la flèche verte (sens vers la droite), ou double-cliquer sur l'équipement.
+> - Pour retirer un élement de la liste des équipements du setup, sélectionnez l'équipement puis cliquez sur la flèche rouge (sens vers la gauche), ou double-cliquer sur l'équiepement.
 
-> [!NOTE]
-> Pour retirer un élement de la liste des équipements du setup, sélectionnez l'équipement puis cliquez sur la flèche rouge (sens vers la gauche), ou double-cliquer sur l'équiepement.
-
-> [!NOTE]
+> [!TIP]
 > Vous pouvez donner un nom différent à l'équipement ajouté au setup.\
 > Exemple : ***Guidage : SW Evoguide ED50***.\
 > Pour celà, sélectionner l'équipement souhaité, puis cliquez sur le bouton ![Nouveau nom d'équipement](images/Session_Equipements_NewName.png).\
-> Pour redonner le nom par défaut, supprimer le texte et laissez la zone vide.
-
-> [!NOTE]
-> Lorsque le nom par défaut est utilisé pour un équipement (hormis les équipements faisant partie du Setup sélectionné), il est écrit entre [ ].
+> - Pour redonner le nom par défaut, supprimer le texte et laissez la zone vide.
+> - Lorsque le nom par défaut est utilisé pour un équipement (hormis les équipements faisant partie du Setup sélectionné), il est écrit entre [ ].
 
 <p align="right"><a href="#sommaire">Retour au sommaire</a></p>
 
@@ -872,7 +876,7 @@ Pour ajouter, modifier ou supprimer un équipement, vous pouvez le faire :
 
 - Depuis le menu contextuel :\
 ![Menu contextuel](images/Equipement_ContextMenu.png)\
-En faisant un clic avec le bouton droit de la souris sur la liste des équipements et sites d'observations, le menu contextuel apparait.\
+Dans l'[onglet Equipements et sites d'observations](#onglet-equipements-et-sites-dobservations), en faisant un clic avec le bouton droit de la souris sur la liste des équipements et sites d'observations, le menu contextuel apparait.\
 Ce menu contextuel contient les éléments suivants :
     - ***Nouvel équipement*** : permet d'ouvrir la boîte de dialogue de création d'un équipement.
     - ***Modifier*** : permet de modifier l'équipement sélectionné.\
@@ -890,12 +894,13 @@ La boîte de dialogue d'ajout ou d'édition d'équipement permet de sélectionne
 
 > [!NOTE]
 > Il existe cinq types d'équipements :
+>
+> ![Types d'équipements](images/Equipement_Type.png)
 > - Lunettes et téléscopes
 > - Montures
 > - Caméras
 > - Filtres
-> - Divers\
-> ![Types d'équipements](images/Equipement_Type.png)
+> - Divers
 
 <p align="right"><a href="#sommaire">Retour au sommaire</a></p>
 
@@ -916,7 +921,7 @@ Pour ajouter, modifier ou supprimer un logiciel, vous pouvez le faire :
 
 - Depuis le menu contextuel :\
 ![Menu contextuel](images/Logiciel_ContextMenu.png)\
-En faisant un clic avec le bouton droit de la souris sur la liste des équipements et sites d'observations, le menu contextuel apparait.\
+Dans l'[onglet Equipements et sites d'observations](#onglet-equipements-et-sites-dobservations), en faisant un clic avec le bouton droit de la souris sur la liste des équipements et sites d'observations, le menu contextuel apparait.\
 Ce menu contextuel contient les éléments suivants :
     - ***Nouveau logiciel*** : permet d'ouvrir la boîte de dialogue de création d'un logiciel.
     - ***Modifier*** : permet de modifier le logiciel sélectionné.\
@@ -926,7 +931,7 @@ Ce menu contextuel contient les éléments suivants :
 
 <p align="right"><a href="#sommaire">Retour au sommaire</a></p>
 
-#### Edition d'un équipement
+#### Edition d'un logiciel
 
 ![Edition d'un setup](images/Logiciel_New.png)
 
@@ -934,11 +939,12 @@ La boîte de dialogue d'ajout ou d'édition de logiciel permet de sélectionner 
 
 > [!NOTE]
 > Il existe quatre types de logiciel :
+>
+> ![Types de logiciel](images/Logiciel_Type.png)
 > - Acquisition
 > - Pré-traitement
 > - Traitement
-> - Divers\
-> ![Types de logiciel](images/Logiciel_Type.png)
+> - Divers
 
 <p align="right"><a href="#sommaire">Retour au sommaire</a></p>
 
