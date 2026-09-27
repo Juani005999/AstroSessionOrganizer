@@ -952,6 +952,7 @@ La boîte de dialogue d'ajout ou d'édition de logiciel permet de sélectionner 
 
 | Date | Version | Commentaires |
 | --- | --- | --- |
+| 27/09/2026 | 0.9.0.3 | <ul><li>Mise à jour technique interne (dépendances). Aucun changement visible.</li></ul> |
 | 20/09/2026 | 0.9.0.2 | <ul><li>Correction du bug sur le catalogue Caldwell manquant. Merci à Eric Beurnaux :)</li></ul> |
 | 16/08/2026 | 0.8.2.1 | <ul><li>Exifs : Correction dans l’affichage des colonnes du tableau des observations.</li></ul> |
 | 14/05/2023 | 0.8.1.1 | <ul><li>Données météo : Ajout de nouveaux champs pour les observations permettant l’archivage des données de votre station météo (OpenWeather, ROM, ...). Température ambiante, taux d’humidité, pression atmosphérique, point de rosée, FWHM étoiles, qualité du ciel (SQM), température du ciel, brillance du ciel.</li></ul> |
