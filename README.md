@@ -955,6 +955,7 @@ La boîte de dialogue d'ajout ou d'édition de logiciel permet de sélectionner 
 
 | Date | Version | Commentaires |
 | --- | --- | --- |
+| 04/10/2026 | 1.0.1.0 | <ul><li>AstroSessionOrganizer est disponible en anglais. La langue suit celle de Windows (français pour un Windows francophone, anglais sinon) et peut être choisie dans Options → Langue.</li><li>Mise à jour de la base de données (libellés anglais des types et constellations), sans perte de données.</li><li>Mise à jour des librairies techniques.</li></ul> |
 | 04/10/2026 | 0.9.0.4 | <ul><li>À propos : lien vers la page GitHub d’AstroSessionOrganizer (installeur, nouveautés).</li><li>Vos paramètres (fenêtre, colonnes, Exifs…) sont désormais conservés lors des mises à jour.</li><li>Vérification des mises à jour désormais effectuée depuis GitHub.</li><li>Mise à jour des librairies techniques.</li></ul> |
 | 27/09/2026 | 0.9.0.3 | <ul><li>Mise à jour technique interne (dépendances). Aucun changement visible.</li></ul> |
 | 20/09/2026 | 0.9.0.2 | <ul><li>Correction du bug sur le catalogue Caldwell manquant. Merci à Eric Beurnaux :)</li></ul> |

@@ -1,9 +1,13 @@
 {
-  "version": "0.9.0.4",
-  "name": "AstroSessionOrganizer 0.9.0.4",
-  "url": "https://github.com/Juani005999/AstroSessionOrganizer/raw/main/AstroSessionOrganizer_0904.msi",
+  "version": "1.0.1.0",
+  "name": "AstroSessionOrganizer 1.0.1.0",
+  "url": "https://github.com/Juani005999/AstroSessionOrganizer/raw/main/AstroSessionOrganizer_1010.msi",
   "files": {},
   "history": [
+    {
+      "version": "1.0.1.0",
+      "notes": "Nouveautés :\n- AstroSessionOrganizer est disponible en anglais. La langue suit celle de Windows (français pour un Windows francophone, anglais sinon) et peut être choisie dans Options → Langue.\n\nMaintenance :\n- Mise à jour de la base de données (libellés anglais des types et constellations), sans perte de données.\n- Mise à jour des librairies techniques."
+    },
     {
       "version": "0.9.0.4",
       "notes": "Nouveautés :\n- À propos : lien vers la page GitHub d’AstroSessionOrganizer (installeur, nouveautés).\n- Vos paramètres (fenêtre, colonnes, Exifs…) sont désormais conservés lors des mises à jour.\n\nMaintenance :\n- Vérification des mises à jour désormais effectuée depuis GitHub.\n- Mise à jour des librairies techniques."
