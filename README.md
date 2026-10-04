@@ -133,7 +133,8 @@ Cette action permet d'ouvrir la boîte de dialogue ***A Propos***.
 ![Boîte de dialogue A Propos](images/BoiteDeDialogue_APropos.png)
 
 Cette boîte de dialogue permet d'afficher les informations à propos du logiciel ***AstroSessionOrganizer*** (***ASO***).\
-Il est également possible, via le bouton présent, d'ouvrir le fichier des logs de l'application.
+Il est également possible, via le bouton présent, d'ouvrir le fichier des logs de l'application.\
+Le lien **Page GitHub d'AstroSessionOrganizer** ouvre cette page dans votre navigateur : vous y trouverez la dernière version et les nouveautés.
 
 <p align="right"><a href="#sommaire">Retour au sommaire</a></p>
 
