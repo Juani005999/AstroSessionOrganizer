@@ -110,13 +110,22 @@ Cette action permet d'ouvrir la boîte de dialogue ***Options***.
 ##### Boîte de dialogue 'Options'
 ![Boîte de dialogue Options](images/BoiteDeDialogue_Options.png)
 
-Cette boîte de dialogue permet de définir les options de communication avec les logiciels ***Stellarium*** et ***Cartes du Ciel***.\
+Cette boîte de dialogue permet de définir les options de communication avec les logiciels ***Stellarium*** et ***Cartes du Ciel***, ainsi que la langue de l'interface.\
 Les Options par défaut sont :
 - ***Stellarium*** :
     - Serveur   : **localhost**
     - Port      : **8090**
 - ***Cartes du Ciel*** :
     - Serveur   : **127.0.0.1**
+- **Langue de l'interface** : **Automatique (langue de Windows)**
+
+La langue de l'interface peut être :
+- **Automatique (langue de Windows)** : **ASO** s'affiche en français si Windows est en français, en anglais pour toutes les autres langues.
+- **Français**
+- **English**
+
+> [!NOTE]
+> Le changement de langue est pris en compte au prochain démarrage de **ASO**.
 
 <p align="right"><a href="#sommaire">Retour au sommaire</a></p>
 
