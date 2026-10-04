@@ -1,6 +1,8 @@
 # AstroSessionOrganizer
 ***AstroSessionOrganizer*** (**ASO**) est un utilitaire (freeware) sous ***Windows*** permettant la gestion et la sauvegarde des sessions d'observations astrophotographiques et des données associées.
 
+Le logiciel est disponible en **FR** et **EN**.
+
 ![AstroSessionOrganizer](images/ASO.png)
 
 ## Sommaire
