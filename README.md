@@ -952,6 +952,7 @@ La boîte de dialogue d'ajout ou d'édition de logiciel permet de sélectionner 
 
 | Date | Version | Commentaires |
 | --- | --- | --- |
+| 04/10/2026 | 0.9.0.4 | <ul><li>À propos : lien vers la page GitHub d’AstroSessionOrganizer (installeur, nouveautés).</li><li>Vos paramètres (fenêtre, colonnes, Exifs…) sont désormais conservés lors des mises à jour.</li><li>Vérification des mises à jour désormais effectuée depuis GitHub.</li><li>Mise à jour des librairies techniques.</li></ul> |
 | 27/09/2026 | 0.9.0.3 | <ul><li>Mise à jour technique interne (dépendances). Aucun changement visible.</li></ul> |
 | 20/09/2026 | 0.9.0.2 | <ul><li>Correction du bug sur le catalogue Caldwell manquant. Merci à Eric Beurnaux :)</li></ul> |
 | 16/08/2026 | 0.8.2.1 | <ul><li>Exifs : Correction dans l’affichage des colonnes du tableau des observations.</li></ul> |

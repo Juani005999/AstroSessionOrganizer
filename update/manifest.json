@@ -1,0 +1,84 @@
+{
+  "version": "0.9.0.4",
+  "name": "AstroSessionOrganizer 0.9.0.4",
+  "url": "https://github.com/Juani005999/AstroSessionOrganizer/raw/main/AstroSessionOrganizer_0904.msi",
+  "files": {},
+  "history": [
+    {
+      "version": "0.9.0.4",
+      "notes": "Nouveautés :\n- À propos : lien vers la page GitHub d’AstroSessionOrganizer (installeur, nouveautés).\n- Vos paramètres (fenêtre, colonnes, Exifs…) sont désormais conservés lors des mises à jour.\n\nMaintenance :\n- Vérification des mises à jour désormais effectuée depuis GitHub.\n- Mise à jour des librairies techniques."
+    },
+    {
+      "version": "0.9.0.3",
+      "notes": "Mise à jour technique interne (dépendances).\nAucun changement visible."
+    },
+    {
+      "version": "0.9.0.2",
+      "notes": "Correction du bug sur le catalogue Caldwell manquant.\nMerci à Eric Beurnaux :)"
+    },
+    {
+      "version": "0.8.2.1",
+      "notes": "Exifs :\nCorrection dans l’affichage des colonnes du tableau des observations."
+    },
+    {
+      "version": "0.8.1.1",
+      "notes": "Données météo :\nAjout de nouveaux champs pour les observations permettant l’archivage des données de votre station météo (OpenWeather, ROM, ...).\nTempérature ambiante, taux d’humidité, pression atmosphérique, point de rosée, FWHM étoiles, qualité du ciel (SQM), température du ciel, brillance du ciel."
+    },
+    {
+      "version": "0.7.1.1",
+      "notes": "Images au format webp :\nPrise en charge des images au format webp."
+    },
+    {
+      "version": "0.5.6.2",
+      "notes": "Sauvegarde de la base :\nRemplacement de la boîte de message de succès par une notification icône."
+    },
+    {
+      "version": "0.5.5.2",
+      "notes": "Amélioration des Exifs :\nSauvegarde des paramètres des Exifs.\nBien vu Gaël Ajinn :)"
+    },
+    {
+      "version": "0.5.4.2",
+      "notes": "Amélioration des Exifs :\nSuppression des informations de Lune pour les observations qui ne sont pas de type ‘brutes’."
+    },
+    {
+      "version": "0.5.4.1",
+      "notes": "Amélioration des Exifs :\nPossibilité d’ajouter l’image de l’objet céleste en grand au bas de l’Exif (Merci Gaël Ajinn)."
+    },
+    {
+      "version": "0.5.3.4",
+      "notes": "Import des infos Fits :\nAprès vérification et validation avec l’équipe SIRIL, lecture du champ DATE-OBS au format UTC (Coordinated Universal Time)."
+    },
+    {
+      "version": "0.5.3.2",
+      "notes": "Création de session :\nSélection automatique de la nouvelle session dans la liste lors de la création.\n\nDénominations :\nAffichage des dénominations de l’objet céleste dans les Exifs et dans le détail d’une session."
+    },
+    {
+      "version": "0.5.3.1",
+      "notes": "Import des infos Fits :\nPossibilité de charger dans une observation les données lues avec le Fits reader."
+    },
+    {
+      "version": "0.5.2.1",
+      "notes": "Observations :\nActualisation automatique du champ ‘Lune’ en fonction de la date et du lieu de l’observation."
+    },
+    {
+      "version": "0.4.1.0",
+      "notes": "Observations :\nAjout du nouveau champ ‘Offset/Brightness’ aux observations.\n\nModification de la base de données :\nModification de la structure de la table Observations."
+    },
+    {
+      "version": "0.4.0.3",
+      "notes": "FIT Header reader :\nCorrection de la lecture des champs de type COMMENT dans le Header Data Unit.\n\nBoîte de dialogue Observations :\nModifications cosmétiques."
+    },
+    {
+      "version": "0.4.0.2",
+      "notes": "FIT Header reader :\nLors de la création/édition d’une observation, un lecteur d’en-tête de fichier fit vous permet de visualiser des données HDU d’une image fit/fits."
+    },
+    {
+      "version": "0.4.0.1",
+      "notes": "Image constellation :\nLors de la création/édition d’une session, copie automatique de l’image de la constellation dans le répertoire des images de la session.\n\nCommunication avec AstroTargetSelector :\nEnvoi des dénominations de l’objet.\n\nOuverture dans Stellarium :\nMise en avant plan de Stellarium lors de l’affichage d’un objet.\n\nOuverture dans Carte du Ciel :\nMise en avant plan de Carte du Ciel lors de l’affichage d’un objet.\n\nAffichage d’une session :\nAffichage du RA/DEC de l’objet céleste de la session."
+    },
+    {
+      "version": "0.3.0.1",
+      "notes": "Communication avec AstroTargetSelector :\nPossibilité d’afficher un objet du catalogue afin de visualiser l’évolution de la hauteur dans le ciel et le temps de pose max.\n\nModification de la base de données :\nMise à jour de la table des objets célestes."
+    }
+  ]
+}
