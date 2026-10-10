@@ -1,88 +1,113 @@
 {
-  "version": "1.0.1.0",
-  "name": "AstroSessionOrganizer 1.0.1.0",
-  "url": "https://github.com/Juani005999/AstroSessionOrganizer/raw/main/AstroSessionOrganizer_1010.msi",
+  "version": "1.1.0.1",
+  "name": "AstroSessionOrganizer 1.1.0.1",
+  "url": "https://github.com/Juani005999/AstroSessionOrganizer/raw/main/AstroSessionOrganizer_1101.msi",
   "files": {},
   "history": [
     {
+      "version": "1.1.0.1",
+      "notes": "Nouveautés :\n- À propos : nouvelle présentation de la fenêtre, avec un bouton « Voir sur GitHub ».\n- Nouvelle version disponible : nouvelle présentation de la fenêtre, avec un historique des versions plus lisible et un bouton de téléchargement.\n- Les notes de version s’affichent en anglais lorsque l’interface est en anglais.\n\nMaintenance :\n- Mise à jour des librairies techniques.",
+      "notes_en": "What's new:\n- About: new window layout, with a “View on GitHub” button.\n- New version available: new window layout, with an easier-to-read version history and a download button.\n- Release notes are shown in English when the interface is in English.\n\nMaintenance:\n- Technical libraries updated."
+    },
+    {
       "version": "1.0.1.0",
-      "notes": "Nouveautés :\n- AstroSessionOrganizer est disponible en anglais. La langue suit celle de Windows (français pour un Windows francophone, anglais sinon) et peut être choisie dans Options → Langue.\n\nMaintenance :\n- Mise à jour de la base de données (libellés anglais des types et constellations), sans perte de données.\n- Mise à jour des librairies techniques."
+      "notes": "Nouveautés :\n- AstroSessionOrganizer est disponible en anglais. La langue suit celle de Windows (français pour un Windows francophone, anglais sinon) et peut être choisie dans Options → Langue.\n\nMaintenance :\n- Mise à jour de la base de données (libellés anglais des types et constellations), sans perte de données.\n- Mise à jour des librairies techniques.",
+      "notes_en": "What's new:\n- AstroSessionOrganizer is now available in English. The language follows Windows (French for a French-language Windows, English otherwise) and can be chosen in Options → Language.\n\nMaintenance:\n- Database update (English names for types and constellations), without any data loss.\n- Technical libraries updated."
     },
     {
       "version": "0.9.0.4",
-      "notes": "Nouveautés :\n- À propos : lien vers la page GitHub d’AstroSessionOrganizer (installeur, nouveautés).\n- Vos paramètres (fenêtre, colonnes, Exifs…) sont désormais conservés lors des mises à jour.\n\nMaintenance :\n- Vérification des mises à jour désormais effectuée depuis GitHub.\n- Mise à jour des librairies techniques."
+      "notes": "Nouveautés :\n- À propos : lien vers la page GitHub d’AstroSessionOrganizer (installeur, nouveautés).\n- Vos paramètres (fenêtre, colonnes, Exifs…) sont désormais conservés lors des mises à jour.\n\nMaintenance :\n- Vérification des mises à jour désormais effectuée depuis GitHub.\n- Mise à jour des librairies techniques.",
+      "notes_en": "What's new:\n- About: link to the AstroSessionOrganizer GitHub page (installer, what's new).\n- Your settings (window, columns, Exifs…) are now kept when updating.\n\nMaintenance:\n- Update check now performed from GitHub.\n- Technical libraries updated."
     },
     {
       "version": "0.9.0.3",
-      "notes": "Mise à jour technique interne (dépendances).\nAucun changement visible."
+      "notes": "Mise à jour technique interne (dépendances).\nAucun changement visible.",
+      "notes_en": "Internal technical update (dependencies).\nNo visible change."
     },
     {
       "version": "0.9.0.2",
-      "notes": "Correction du bug sur le catalogue Caldwell manquant.\nMerci à Eric Beurnaux :)"
+      "notes": "Correction du bug sur le catalogue Caldwell manquant.\nMerci à Eric Beurnaux :)",
+      "notes_en": "Fixed the missing Caldwell catalogue bug.\nThanks to Eric Beurnaux :)"
     },
     {
       "version": "0.8.2.1",
-      "notes": "Exifs :\nCorrection dans l’affichage des colonnes du tableau des observations."
+      "notes": "Exifs :\nCorrection dans l’affichage des colonnes du tableau des observations.",
+      "notes_en": "Exifs:\nFixed the display of the columns in the observations table."
     },
     {
       "version": "0.8.1.1",
-      "notes": "Données météo :\nAjout de nouveaux champs pour les observations permettant l’archivage des données de votre station météo (OpenWeather, ROM, ...).\nTempérature ambiante, taux d’humidité, pression atmosphérique, point de rosée, FWHM étoiles, qualité du ciel (SQM), température du ciel, brillance du ciel."
+      "notes": "Données météo :\nAjout de nouveaux champs pour les observations permettant l’archivage des données de votre station météo (OpenWeather, ROM, ...).\nTempérature ambiante, taux d’humidité, pression atmosphérique, point de rosée, FWHM étoiles, qualité du ciel (SQM), température du ciel, brillance du ciel.",
+      "notes_en": "Weather data:\nNew observation fields to archive the data from your weather station (OpenWeather, ROM, ...).\nAmbient temperature, humidity, atmospheric pressure, dew point, star FWHM, sky quality (SQM), sky temperature, sky brightness."
     },
     {
       "version": "0.7.1.1",
-      "notes": "Images au format webp :\nPrise en charge des images au format webp."
+      "notes": "Images au format webp :\nPrise en charge des images au format webp.",
+      "notes_en": "WebP images:\nSupport for images in WebP format."
     },
     {
       "version": "0.5.6.2",
-      "notes": "Sauvegarde de la base :\nRemplacement de la boîte de message de succès par une notification icône."
+      "notes": "Sauvegarde de la base :\nRemplacement de la boîte de message de succès par une notification icône.",
+      "notes_en": "Database backup:\nThe success message box is replaced by a notification icon."
     },
     {
       "version": "0.5.5.2",
-      "notes": "Amélioration des Exifs :\nSauvegarde des paramètres des Exifs.\nBien vu Gaël Ajinn :)"
+      "notes": "Amélioration des Exifs :\nSauvegarde des paramètres des Exifs.\nBien vu Gaël Ajinn :)",
+      "notes_en": "Exif improvements:\nExif settings are now saved.\nWell spotted, Gaël Ajinn :)"
     },
     {
       "version": "0.5.4.2",
-      "notes": "Amélioration des Exifs :\nSuppression des informations de Lune pour les observations qui ne sont pas de type ‘brutes’."
+      "notes": "Amélioration des Exifs :\nSuppression des informations de Lune pour les observations qui ne sont pas de type ‘brutes’.",
+      "notes_en": "Exif improvements:\nMoon information removed for observations that are not of type ‘raw’."
     },
     {
       "version": "0.5.4.1",
-      "notes": "Amélioration des Exifs :\nPossibilité d’ajouter l’image de l’objet céleste en grand au bas de l’Exif (Merci Gaël Ajinn)."
+      "notes": "Amélioration des Exifs :\nPossibilité d’ajouter l’image de l’objet céleste en grand au bas de l’Exif (Merci Gaël Ajinn).",
+      "notes_en": "Exif improvements:\nA large image of the celestial object can be added at the bottom of the Exif (Thanks Gaël Ajinn)."
     },
     {
       "version": "0.5.3.4",
-      "notes": "Import des infos Fits :\nAprès vérification et validation avec l’équipe SIRIL, lecture du champ DATE-OBS au format UTC (Coordinated Universal Time)."
+      "notes": "Import des infos Fits :\nAprès vérification et validation avec l’équipe SIRIL, lecture du champ DATE-OBS au format UTC (Coordinated Universal Time).",
+      "notes_en": "Fits info import:\nAfter checking and validation with the SIRIL team, the DATE-OBS field is read in UTC (Coordinated Universal Time)."
     },
     {
       "version": "0.5.3.2",
-      "notes": "Création de session :\nSélection automatique de la nouvelle session dans la liste lors de la création.\n\nDénominations :\nAffichage des dénominations de l’objet céleste dans les Exifs et dans le détail d’une session."
+      "notes": "Création de session :\nSélection automatique de la nouvelle session dans la liste lors de la création.\n\nDénominations :\nAffichage des dénominations de l’objet céleste dans les Exifs et dans le détail d’une session.",
+      "notes_en": "Session creation:\nThe new session is automatically selected in the list when created.\n\nDesignations:\nThe designations of the celestial object are shown in the Exifs and in the session details."
     },
     {
       "version": "0.5.3.1",
-      "notes": "Import des infos Fits :\nPossibilité de charger dans une observation les données lues avec le Fits reader."
+      "notes": "Import des infos Fits :\nPossibilité de charger dans une observation les données lues avec le Fits reader.",
+      "notes_en": "Fits info import:\nData read with the Fits reader can be loaded into an observation."
     },
     {
       "version": "0.5.2.1",
-      "notes": "Observations :\nActualisation automatique du champ ‘Lune’ en fonction de la date et du lieu de l’observation."
+      "notes": "Observations :\nActualisation automatique du champ ‘Lune’ en fonction de la date et du lieu de l’observation.",
+      "notes_en": "Observations:\nThe ‘Moon’ field is updated automatically from the date and location of the observation."
     },
     {
       "version": "0.4.1.0",
-      "notes": "Observations :\nAjout du nouveau champ ‘Offset/Brightness’ aux observations.\n\nModification de la base de données :\nModification de la structure de la table Observations."
+      "notes": "Observations :\nAjout du nouveau champ ‘Offset/Brightness’ aux observations.\n\nModification de la base de données :\nModification de la structure de la table Observations.",
+      "notes_en": "Observations:\nNew ‘Offset/Brightness’ field for observations.\n\nDatabase change:\nThe structure of the Observations table has changed."
     },
     {
       "version": "0.4.0.3",
-      "notes": "FIT Header reader :\nCorrection de la lecture des champs de type COMMENT dans le Header Data Unit.\n\nBoîte de dialogue Observations :\nModifications cosmétiques."
+      "notes": "FIT Header reader :\nCorrection de la lecture des champs de type COMMENT dans le Header Data Unit.\n\nBoîte de dialogue Observations :\nModifications cosmétiques.",
+      "notes_en": "FIT Header reader:\nFixed the reading of COMMENT fields in the Header Data Unit.\n\nObservations dialog:\nCosmetic changes."
     },
     {
       "version": "0.4.0.2",
-      "notes": "FIT Header reader :\nLors de la création/édition d’une observation, un lecteur d’en-tête de fichier fit vous permet de visualiser des données HDU d’une image fit/fits."
+      "notes": "FIT Header reader :\nLors de la création/édition d’une observation, un lecteur d’en-tête de fichier fit vous permet de visualiser des données HDU d’une image fit/fits.",
+      "notes_en": "FIT Header reader:\nWhen creating/editing an observation, a fit file header reader lets you view the HDU data of a fit/fits image."
     },
     {
       "version": "0.4.0.1",
-      "notes": "Image constellation :\nLors de la création/édition d’une session, copie automatique de l’image de la constellation dans le répertoire des images de la session.\n\nCommunication avec AstroTargetSelector :\nEnvoi des dénominations de l’objet.\n\nOuverture dans Stellarium :\nMise en avant plan de Stellarium lors de l’affichage d’un objet.\n\nOuverture dans Carte du Ciel :\nMise en avant plan de Carte du Ciel lors de l’affichage d’un objet.\n\nAffichage d’une session :\nAffichage du RA/DEC de l’objet céleste de la session."
+      "notes": "Image constellation :\nLors de la création/édition d’une session, copie automatique de l’image de la constellation dans le répertoire des images de la session.\n\nCommunication avec AstroTargetSelector :\nEnvoi des dénominations de l’objet.\n\nOuverture dans Stellarium :\nMise en avant plan de Stellarium lors de l’affichage d’un objet.\n\nOuverture dans Carte du Ciel :\nMise en avant plan de Carte du Ciel lors de l’affichage d’un objet.\n\nAffichage d’une session :\nAffichage du RA/DEC de l’objet céleste de la session.",
+      "notes_en": "Constellation image:\nWhen creating/editing a session, the constellation image is automatically copied to the session images folder.\n\nCommunication with AstroTargetSelector:\nThe object designations are sent.\n\nOpening in Stellarium:\nStellarium is brought to the foreground when an object is displayed.\n\nOpening in Cartes du Ciel:\nCartes du Ciel is brought to the foreground when an object is displayed.\n\nSession display:\nThe RA/DEC of the session's celestial object is shown."
     },
     {
       "version": "0.3.0.1",
-      "notes": "Communication avec AstroTargetSelector :\nPossibilité d’afficher un objet du catalogue afin de visualiser l’évolution de la hauteur dans le ciel et le temps de pose max.\n\nModification de la base de données :\nMise à jour de la table des objets célestes."
+      "notes": "Communication avec AstroTargetSelector :\nPossibilité d’afficher un objet du catalogue afin de visualiser l’évolution de la hauteur dans le ciel et le temps de pose max.\n\nModification de la base de données :\nMise à jour de la table des objets célestes.",
+      "notes_en": "Communication with AstroTargetSelector:\nA catalogue object can be displayed to view its altitude over time and the maximum exposure time.\n\nDatabase change:\nThe celestial objects table has been updated."
     }
   ]
 }

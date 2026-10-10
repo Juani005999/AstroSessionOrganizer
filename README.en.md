@@ -18,6 +18,7 @@ The software is available in **FR** and **EN**.
             - [Options](#options-dialog)
         - [? menu](#-menu)
            - [About](#about-dialog)
+           - [New version available](#new-version-available-dialog)
     - [Toolbar](#toolbar)
     - [Tabs](#tabs)
         - [Observing sessions tab](#observing-sessions-tab)
@@ -146,9 +147,20 @@ Opens the ***About*** dialog.
 ##### About dialog
 ![About dialog](images/BoiteDeDialogue_APropos.png)
 
-This dialog shows information about ***AstroSessionOrganizer*** (***ASO***).\
-Its button opens the application log file.\
-The **AstroSessionOrganizer GitHub page** link opens this page in your browser: you will find the latest version and what's new there.
+This dialog shows information about ***AstroSessionOrganizer*** (***ASO***): version, copyright and terms of use of the catalogue data.\
+The **View on GitHub** button opens this page in your browser: you will find the latest version and what's new there.\
+The **Open the log file** button opens the application log file.
+
+<p align="right"><a href="#table-of-contents">Back to table of contents</a></p>
+
+##### New version available dialog
+![New version available dialog](images/BoiteDeDialogue_NouvelleVersion.png)
+
+At startup, ***ASO*** checks whether a new version is available. If so, this dialog opens:
+- The **New version** / **Installed version** line compares the published version with the one installed on your PC.
+- The list shows what's new and the fixes of all published versions; the version installed on your PC is marked *installed version*.
+- The **Download version …** button opens the installer download link in your browser, then closes ***ASO*** so as not to disturb the installation. Then run the downloaded installer: no need to uninstall the current version, and your data and settings are kept.
+- The **Close** button closes the dialog without updating: ***ASO*** will offer the update again at the next startup.
 
 <p align="right"><a href="#table-of-contents">Back to table of contents</a></p>
 
@@ -969,6 +981,7 @@ The software dialog lets you select a software type and give the software a name
 
 | Date | Version | Comments |
 | --- | --- | --- |
+| 10/10/2026 | 1.1.0.1 | <ul><li>About: new window layout, with a “View on GitHub” button.</li><li>New version available: new window layout, with an easier-to-read version history and a download button.</li><li>Release notes are shown in English when the interface is in English.</li><li>Technical libraries update.</li></ul> |
 | 04/10/2026 | 1.0.1.0 | <ul><li>AstroSessionOrganizer is available in English. The language follows Windows (French on a French Windows, English otherwise) and can be chosen in Options → Language.</li><li>Database update (English labels for types and constellations), with no data loss.</li><li>Technical libraries update.</li></ul> |
 | 04/10/2026 | 0.9.0.4 | <ul><li>About: link to the AstroSessionOrganizer GitHub page (installer, what's new).</li><li>Your settings (window, columns, Exifs…) are now kept when updating.</li><li>Updates are now checked from GitHub.</li><li>Technical libraries update.</li></ul> |
 | 27/09/2026 | 0.9.0.3 | <ul><li>Internal technical update (dependencies). No visible change.</li></ul> |

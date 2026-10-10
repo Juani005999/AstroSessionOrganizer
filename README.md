@@ -15,6 +15,7 @@ Le logiciel est disponible en **FR** et **EN**.
             - [Options](#boîte-de-dialogue-options)
         - [Menu ?](#menu-)
            - [A Propos](#boîte-de-dialogue-a-propos)
+           - [Nouvelle version disponible](#boîte-de-dialogue-nouvelle-version-disponible)
     - [Barre d'outils](#barre-doutils)
     - [Onglets](#onglets)
         - [Onglet Sessions d'observations](#onglet-sessions-dobservations)
@@ -143,9 +144,20 @@ Cette action permet d'ouvrir la boîte de dialogue ***A Propos***.
 ##### Boîte de dialogue 'A Propos'
 ![Boîte de dialogue A Propos](images/BoiteDeDialogue_APropos.png)
 
-Cette boîte de dialogue permet d'afficher les informations à propos du logiciel ***AstroSessionOrganizer*** (***ASO***).\
-Il est également possible, via le bouton présent, d'ouvrir le fichier des logs de l'application.\
-Le lien **Page GitHub d'AstroSessionOrganizer** ouvre cette page dans votre navigateur : vous y trouverez la dernière version et les nouveautés.
+Cette boîte de dialogue permet d'afficher les informations à propos du logiciel ***AstroSessionOrganizer*** (***ASO***) : version, copyright et conditions d'utilisation des données du catalogue.\
+Le bouton **Voir sur GitHub** ouvre cette page dans votre navigateur : vous y trouverez la dernière version et les nouveautés.\
+Le bouton **Ouvrir le fichier des logs** ouvre le fichier des logs de l'application.
+
+<p align="right"><a href="#sommaire">Retour au sommaire</a></p>
+
+##### Boîte de dialogue Nouvelle version disponible
+![Boîte de dialogue Nouvelle version disponible](images/BoiteDeDialogue_NouvelleVersion.png)
+
+Au démarrage, ***ASO*** vérifie si une nouvelle version est disponible. Si c'est le cas, cette boîte de dialogue s'ouvre :
+- La ligne **Nouvelle version** / **Version installée** compare la version publiée à celle installée sur votre PC.
+- La liste présente les nouveautés et les corrections de toutes les versions publiées ; la version installée sur votre PC est repérée par la mention *version installée*.
+- Le bouton **Télécharger la version …** ouvre le lien de téléchargement de l'installeur dans votre navigateur, puis ferme ***ASO*** afin de ne pas perturber l'installation. Lancez ensuite l'installeur téléchargé : pas besoin de désinstaller la version actuelle, et vos données et paramètres sont conservés.
+- Le bouton **Fermer** ferme la boîte de dialogue sans mettre à jour : ***ASO*** vous proposera de nouveau la mise à jour au prochain démarrage.
 
 <p align="right"><a href="#sommaire">Retour au sommaire</a></p>
 
@@ -966,6 +978,7 @@ La boîte de dialogue d'ajout ou d'édition de logiciel permet de sélectionner 
 
 | Date | Version | Commentaires |
 | --- | --- | --- |
+| 10/10/2026 | 1.1.0.1 | <ul><li>À propos : nouvelle présentation de la fenêtre, avec un bouton « Voir sur GitHub ».</li><li>Nouvelle version disponible : nouvelle présentation de la fenêtre, avec un historique des versions plus lisible et un bouton de téléchargement.</li><li>Les notes de version s’affichent en anglais lorsque l’interface est en anglais.</li><li>Mise à jour des librairies techniques.</li></ul> |
 | 04/10/2026 | 1.0.1.0 | <ul><li>AstroSessionOrganizer est disponible en anglais. La langue suit celle de Windows (français pour un Windows francophone, anglais sinon) et peut être choisie dans Options → Langue.</li><li>Mise à jour de la base de données (libellés anglais des types et constellations), sans perte de données.</li><li>Mise à jour des librairies techniques.</li></ul> |
 | 04/10/2026 | 0.9.0.4 | <ul><li>À propos : lien vers la page GitHub d’AstroSessionOrganizer (installeur, nouveautés).</li><li>Vos paramètres (fenêtre, colonnes, Exifs…) sont désormais conservés lors des mises à jour.</li><li>Vérification des mises à jour désormais effectuée depuis GitHub.</li><li>Mise à jour des librairies techniques.</li></ul> |
 | 27/09/2026 | 0.9.0.3 | <ul><li>Mise à jour technique interne (dépendances). Aucun changement visible.</li></ul> |
